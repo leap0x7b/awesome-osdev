@@ -8,6 +8,7 @@ List of resources and projects for operating system development.
    - [Operating Systems](#operating-systems)
 - [Resources](#resources)
    - [Tutorials](#tutorials)
+   - [Books](#books)
    - [Reference Projects](#reference-projects)
    - [Websites](#websites)
    - [Manuals and Specifications](#manuals-and-specifications)
@@ -68,12 +69,61 @@ List of resources and projects for operating system development.
 - [Writing an OS in Rust](https://os.phil-opp.com/) - A blog series to write a small operating system in Rust.
 - [James A. Molloy's Kernel Tutorials](http://jamesmolloy.co.uk/tutorial_html/) - One of the popular OS development tutorials in the past. It is not recommended to follow this tutorial because it has so many [issues and known flaws](https://wiki.osdev.org/Brokenthorn%27s_Known_Bugs) that have not been corrected.
 
+### Books
+| <img width="240px" src="https://m.media-amazon.com/images/I/51lTsD-LGoL.jpg"> | [Operating Systems: Three Easy Pieces](https://www.amazon.com/Operating-Systems-Three-Easy-Pieces-ebook/dp/B00TPZ17O4) |
+|:-:|:--|
+| | **Author(s):** Remzi Arpaci-Dusseau and Andrea Arpaci-Dusseau |
+| | **Publication date:** February 16th, 2015 |
+| | **Description:** \nA book covering the fundamentals of operating systems, including virtualization of the CPU and memory, threads and concurrency, and file and storage systems. Written by professors active in the field for 20 years, this text has been developed in the classrooms of the University of Wisconsin-Madison, and has been used in the instruction of thousands of students. |
+
+| <img width="240px" src="https://m.media-amazon.com/images/I/511H8QWUL4L._AC_SY780_.jpg"> | [Modern Operating Systems](https://www.amazon.com/Modern-Operating-Systems-Andrew-Tanenbaum/dp/013359162X) 4th Edition |
+|:-:|:--|
+| | **Author(s):** Andrew S. Tannenbaum and Herbert Bos |
+| | **Publication date:** March 10th, 2014 |
+| | **Description:** Modern Operating Systems, Fourth Edition, is intended for introductory courses in Operating Systems in Computer Science, Computer Engineering, and Electrical Engineering programs. It also serves as a useful reference for OS professionals. |
+
+| <img width="240px" src="https://m.media-amazon.com/images/I/51tezjsttsL.jpg"> | [Operating System Concepts](https://www.amazon.com/Operating-System-Concepts-Abraham-Silberschatz-ebook/dp/B07CVKH7BD) 10th Edition |
+|:-:|:--|
+| | **Author(s):** Abraham Silberschatz, Greg Gagne, and Peter B. Galvin |
+| | **Publication date:** May 4th, 2018 |
+| | **Description:** The tenth edition of Operating System Concepts has been revised to keep it fresh and up-to-date with contemporary examples of how operating systems function, as well as enhanced interactive elements to improve learning and the student’s experience with the material. It combines instruction on concepts with real-world applications so that students can understand the practical usage of the content. End-of-chapter problems, exercises, review questions, and programming exercises help to further reinforce important concepts. New interactive self-assessment problems are provided throughout the text to help students monitor their level of understanding and progress. A Linux virtual machine (including C and Java source code and development tools) allows students to complete programming exercises that help them engage further with the material. |
+
+| <img width="240px" src="https://m.media-amazon.com/images/I/51m-4I8qKzL._AC_SY780_.jpg"> | [The Design of the UNIX Operating System](https://www.amazon.com/Design-UNIX-Operating-System/dp/0132017997) |
+|:-:|:--|
+| | **Author(s):** Maurice Bach |
+| | **Publication date:** May 27th, 1986 |
+| | **Description:** This book describes the internal algorithms and the structures that form the basis of the UNIX® operating system and their relationship to the programmer interface. The system description is based on UNIX System V Release 2 supported by AT&T, with some features from Release 3. |
+
+| <img width="240px" src="https://m.media-amazon.com/images/I/51UjzO152QL._AC_SY780_.jpg"> | [Operating Systems: Principles and Practice](https://www.amazon.com/Operating-Systems-Principles-Thomas-Anderson/dp/0985673524) |
+|:-:|:--|
+| | **Author(s):** Thomas Anderson and Michael Dahlin |
+| | **Publication date:** August 21st, 2014 |
+| | **Description:** Over the past two decades, there has been a huge amount of innovation in both the principles and practice of operating systems Over the same period, the core ideas in a modern operating system - protection, concurrency, virtualization, resource allocation, and reliable storage - have become widely applied throughout computer science. Whether you get a job at Facebook, Google, Microsoft, or any other leading-edge technology company, it is impossible to build resilient, secure, and flexible computer systems without the ability to apply operating systems concepts in a variety of settings. This book examines the both the principles and practice of modern operating systems, taking important, high-level concepts all the way down to the level of working code. Because operating systems concepts are among the most difficult in computer science, this top to bottom approach is the only way to really understand and master this important material. |
+
+| <img width="240px" src="https://m.media-amazon.com/images/I/41d-8kHHYDL._AC_SY780_.jpg"> | [Operating Systems: Design and Implementation](https://www.amazon.com/Operating-Systems-Implementation-Prentice-Hall-Software/dp/0136374069) 1st Edition |
+|:-:|:--|
+| | **Author(s):** Andrew S. Tannenbaum |
+| | **Publication date:** December 1st, 1986 |
+| | **Description:** From one of the Netherland's leading authors of computer science books comes complete coverage of operating systems, plus all the design and implementation issues with a complete operating system — MINIX. |
+
+| <img width="240px" src="https://m.media-amazon.com/images/I/5169V5J687L._AC_SY780_.jpg"> | [Operating Systems: Design and Implementation](https://www.amazon.com/Operating-Systems-Design-Implementation-Second/dp/0136386776) 2nd Edition |
+|:-:|:--|
+| | **Author(s):** Andrew S. Tannenbaum and Albert S. Woodhull |
+| | **Publication date:** January 15th, 1997 |
+| | **Description:** Most books on operating systems deal with theory while ignoring practice. While the usual principles are covered in detail, the book describes a small, but real UNIX-like operating system: MINIX. The book demonstrates how it works while illustrating the principles behind it. Operating Systems: Design and Implementation Second Edition provides the MINIX source code. The relevant selections of the MINIX code are described in detail. When it first came out, MINIX caused something of a revolution. Within weeks, it had its own newsgroup on USENET, with 40,000 people. Most wanted to make MINIX bigger and fancier. Instead, Linux was created. That has become quite popular, very large, and complicated. MINIX, on the other hand, has remained small and suitable for instruction and example. The book has been revised to include updates in MINIX, which started out as a v7 unix clone for a floppy-disk only 8088. It is now aimed at 386, 486, and pentium machines and is based on the international posix standard instead of on v7. There are now also versions of MINIX for the Macintosh and SPARC available. Professional programmers will find this book to be a valuable resource and reference. |
+
+| <img width="240px" src="https://m.media-amazon.com/images/I/51TgXvjntUL._AC_SY780_.jpg"> | [Operating Systems: Design and Implementation](https://www.amazon.com/Operating-Systems-Design-Implementation-3rd/dp/0131429388) 3rd Edition |
+|:-:|:--|
+| | **Author(s):** Andrew S. Tannenbaum and Albert S. Woodhull |
+| | **Publication date:** January 4th, 2006 |
+| | **Description:** Operating Systems Design and Implementation, 3e, is ideal for introductory courses on computer operating systems. Written by the creator of MINIX, professional programmers will now have the most up-to-date tutorial and reference available today. Revised to address the latest version of MINIX (MINIX 3), this streamlined, simplified new edition remains the only operating systems text to first explain relevant principles, then demonstrate their applications using a Unix-like operating system as a detailed example. It has been especially designed for high reliability, for use in embedded systems, and for ease of teaching.  |
+
 ### Reference Projects
 - [Linux 0.0.1](https://cdn.kernel.org/pub/linux/kernel/Historic/linux-0.01.tar.gz) - The first version of Linux. This version is very simple compared to subsequent versions after it.
 - [Xv6](https://github.com/mit-pdos/xv6-public) ([Book](https://pdos.csail.mit.edu/6.828/2018/xv6/book-rev11.pdf)) - A modernized version of the classic Dennis Richie's and Ken Thompson's UNIX V6, written in ANSI C for the x86 and [RISC-V](https://github.com/mit-pdos/xv6-riscv).
-- [MINIX 1.0](https://github.com/gdevic/minix1) - The first version of MINIX for Intel 8086 long mode. First appeared in a book released in 1987 called "Operating Systems: Design and Implementation" written by Andrew S. Tanenbaum.
+- [MINIX 1.0](https://github.com/gdevic/minix1) - The first version of MINIX for Intel 8088 long mode. First appeared in a book released in 1986 called "Operating Systems: Design and Implementation" written by Andrew S. Tanenbaum.
 - [MINIX 1.7.0](https://www.minix-vmd.org/source/std/1.7.0) - A revision of the first version of MINIX, now a 32-bit operating system.
-- [MINIX 2.0.0](https://github.com/leapofazzam123/minix-2.0.0) - The second version of MINIX for i386 protected mode. Appeared in the second edition of "Operating Systems Design and Implementation" released in 1997, written by Andrew S. Tanebaum and Albert S. Woodhull.
+- [MINIX 2.0.0](https://github.com/leapofazzam123/minix-2.0.0) - The second version of MINIX for i386 protected mode. Appeared in the second edition of "Operating Systems: Design and Implementation" released in 1997, written by Andrew S. Tanebaum and Albert S. Woodhull.
 
 *Note: MINIX 3.0.0 isn't included because it's too complex to be an educational operating system compared to previous versions of MINIX.*
 

@@ -1,0 +1,169 @@
+# Awesome OSDev [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+List of resources and projects for operating system development.
+
+## Table of Contents
+- [Projects](#projects)
+   - [Indicators](#indicators)
+   - [Bootloaders](#bootloaders)
+   - [Operating Systems](#operating-systems)
+- [Resources](#resources)
+   - [Tutorials](#tutorials)
+   - [Reference Projects](#reference-projects)
+   - [Websites](#websites)
+   - [Manuals and Specifications](#manuals-and-specifications)
+      - [Processors](#processors)
+         - [Instruction Sets](#instruction-sets)
+      - [BIOS](#bios)
+      - [Input Devices](#input-devices)
+      - [Storage](#storage)
+         - [File System](#file-system)
+      - [Audio](#audio)
+      - [Executable File Format](#executable-file-format)
+      - [Miscellaneous](#miscellaneous)
+- [Contributing](#contributing)
+- [Code of Conduct](#code-of-conduct)
+
+## Projects
+### Indicators
+- 🙂 - Work in progress
+- 😀 - Finished
+- 🙁 - Unmaintained
+
+### Bootloaders
+- 😀 [Limine](https://github.com/limine-bootloader/limine) - x86/x86_64 BIOS/UEFI Bootloader
+- 🙂 [Sabaton](https://github.com/FlorenceOS/Sabaton) - aarch64 stivale2 bootloader
+- 🙁 [TomatBoot](https://github.com/TomatOrg/TomatBoot) - A UEFI 64bit Bootloader
+- 🙂 [Tosaithe](https://github.com/davmac314/tosaithe) - Very minimalistic UEFI boot menu / Stivale2 bootloader
+- 🙂 [Ion](https://github.com/Andy-Python-Programmer/ion) - Modern x86_64 UEFI bootloader
+
+### Operating Systems
+- 😀 [SerenityOS](https://github.com/SerenityOS/serenity) - Graphical Unix-like operating system for x86 computers.
+- 🙂 [BRUTAL](https://github.com/brutal-org/brutal) - An operating system inspired by brutalist design that combines the ideals of UNIX from the 1970s with modern technology and engineering
+- 😀 [Managarm](https://github.com/managarm/managarm) - Pragmatic microkernel-based OS with fully asynchronous I/O
+- 😀 [ToaruOS](https://github.com/klange/toaruos) - A completely-from-scratch hobby operating system: bootloader, kernel, drivers, C library, and userspace including a composited graphical UI, dynamic linker, syntax-highlighting text editor, network stack, etc.
+- 🙁 [SkiftOS](https://github.com/skiftOS/skift) - A hobby operating system built from scratch in modern C++. Featuring a reactive UI library and a strong emphasis on user experience.
+- 😀 [Vinix](https://github.com/vlang/vinix) - Vinix is an effort to write a modern, fast, and useful operating system in the V programming language
+- 😀 [FlorenceOS](https://github.com/FlorenceOS/Florence) - The Renaissance of Operating Systems
+- 🙂 [xtrix](https://git.sr.ht/~pitust/xtrix) - xtrix is a unix-like microkernel designed with a minimal kernel interface.
+- 😀 [Lemon OS](https://github.com/LemonOSProject/LemonOS) - Lemon OS is a UNIX-like 64-bit operating system written in C++.
+- 🙂 [Emerald](https://github.com/Abb1x/emerald) - An operating system written in C
+- 🙂 [Skylight](https://github.com/austanss/skylight) - A clean, well-written minimalist operating system designed to be used as an educational material for operating system development.
+- 😀 [SnowflakeOS](https://github.com/29jm/SnowflakeOS) - "It is very special"
+- 🙂 [nop](https://github.com/nop-os/nop) - nop is a simple educational x86 kernel made to be as small and simple to understand as possible, while being a fully complete kernel.
+- 😀 [EggOS](https://github.com/icexin/eggos) - A Go unikernel running on x86 bare metal
+- 😀 [Aero](https://github.com/Andy-Python-Programmer/aero) - Aero is a new modern, experimental, unix-like operating system following the monolithic kernel design. Supporting modern PC features such as long mode, 5-level paging, and SMP (multicore), to name a few.
+
+## Resources
+### Tutorials
+- [Stivale Bare Bones](https://wiki.osdev.org/Stivale_Bare_Bones) - Bare bones tutorial to make a 64-bit higher half kernel using the Limine bootloader and Stivale boot protocol.
+- [Multiboot Bare Bones](https://wiki.osdev.org/Bare_Bones) - Write a basic 32-bit kernel in C for x86.
+- [Higher Half Multiboot Bare Bones](https://wiki.osdev.org/Higher_Half_x86_Bare_Bones) - A tutorial that shows how to write a higher half kernel.
+- [Meaty Skeleton](https://wiki.osdev.org/Meaty_Skeleton) - A template operating system with a basic libc.
+- [Bran's Kernel Tutorial](http://www.osdever.net/tutorials/view/brans-kernel-development-tutorial) - A very dated, but still often referenced, tutorial from the now-moribund "Bona Fide OS Development" site.
+- [The Little OS Book](http://littleosbook.github.io/) - A third-party OS demonstrator hosted on GitHub. Goes through periods of updating, and known bugs which haven't yet been fixed are listed in the repo.
+- [cfenollosa/os-tutorial](https://github.com/cfenollosa/os-tutorial) - A tutorial to make a complete operating system from a bootloader to a basic shell.
+- [Writing a Simple Operating System — From Scratch](https://www.cs.bham.ac.uk/~exr/lectures/opsys/10_11/lectures/os-dev.pdf) [PDF] - A 2010 tutorial based on course material from a class on operating systems at the University of Birmingham, UK, written by Dr. Nicholas Blundell, the original course instructor.
+- [isometimes/rpi4-osdev](https://github.com/isometimes/rpi4-osdev) - A tutorial to write a basic operating system for Raspberry Pi 4.
+- [Writing an OS in Rust](https://os.phil-opp.com/) - A blog series to write a small operating system in Rust.
+- [James A. Molloy's Kernel Tutorials](http://jamesmolloy.co.uk/tutorial_html/) - One of the popular OS development tutorials in the past. It is not recommended to follow this tutorial because it has so many [issues and known flaws](https://wiki.osdev.org/Brokenthorn%27s_Known_Bugs) that have not been corrected.
+
+### Reference Projects
+- [Linux 0.0.1](https://cdn.kernel.org/pub/linux/kernel/Historic/linux-0.01.tar.gz) - The first version of Linux. This version is very simple compared to future versions after it.
+- [Xv6](https://github.com/mit-pdos/xv6-public) ([Book](https://pdos.csail.mit.edu/6.828/2018/xv6/book-rev11.pdf)) - A modernized version of the classic Dennis Richie's and Ken Thompson's UNIX V6, written in ANSI C for the x86 and [RISC-V](https://github.com/mit-pdos/xv6-riscv).
+- [MINIX 1.0](https://github.com/gdevic/minix1) - The first version of MINIX for Intel 8086 long mode. First appeared in a book released in 1987 called "Operating Systems: Design and Implementation" written by Andrew S. Tanenbaum.
+- [MINIX 1.7.0](https://www.minix-vmd.org/source/std/1.7.0) - A revision of the first version of MINIX, now a 32-bit operating system.
+- [MINIX 2.0.0](https://github.com/leapofazzam123/minix-2.0.0) - The second version of MINIX for i386 protected mode. Appeared in the second edition of "Operating Systems Design and Implementation" released in 1997, written by Andrew S. Tanebaum and Albert S. Woodhull.
+
+### Websites
+- [OSDev Wiki](https://wiki.osdev.org/Expanded_Main_Page) - General OS development wiki where most of the resources OSDevers uses
+- [Lowlevel.eu](http://www.lowlevel.eu/wiki/Lowlevel:Portal) - German OS development wiki
+- [Wiki DEVSE](https://devse.wiki/) - French OS development wiki
+- [Bona Fide OS Development](http://www.osdever.net/) - Tutorials and papers for OS developments. This is also where Bran's Kernel Tutorial lives.
+
+### Manuals and Specifications
+#### Processors
+- [Intel IA-32 and x86-64 Reference Manual](https://software.intel.com/en-us/articles/intel-sdm/)
+    - [Intel Intrinsics Guide](https://software.intel.com/sites/landingpage/IntrinsicsGuide/)
+- [AMD x64-64/AMD64 Reference Manual](http://developer.amd.com/resources/developer-guides-manuals/)
+- [ARM Architecture Reference Manual](https://documentation-service.arm.com/static/5f8dacc8f86e16515cdb865a?token=) [PDF]
+- [Aarch64 Instruction Set Reference](https://documentation-service.arm.com/static/5e7b694616d2907d594029eb?token=) [PDF]
+
+##### Instruction Sets
+- [Intel MMX Technology Overview](https://www.ee.ryerson.ca/~courses/ele818/mmx.pdf) [PDF] ([Intrinsics](https://software.intel.com/content/www/us/en/develop/documentation/cpp-compiler-developer-guide-and-reference/top/compiler-reference/intrinsics/intrinsics-for-mmx-technology.html?wapkw=mmx))
+    - [AMD MMX Technology Manual](https://web.archive.org/web/20121125212937/http://www.nondot.org/sabre/os/files/Processors/AMDMMXManual.pdf) [PDF]
+- [AMD 3DNow! Technology Manual](https://www.amd.com/system/files/TechDocs/21928.pdf) [PDF]
+- [ARM NEON Programmer's Guide](https://www.seas.upenn.edu/~ese532/fall2020/handouts/_downloads/b8a011355a55096090c5b62e49f605c7/neon_programmers_guide.pdf) [PDF] ([Intrinsics](https://developer.arm.com/architectures/instruction-sets/simd-isas/neon/intrinsics))
+
+#### BIOS
+- [BIOS Boot Specification](https://www.scs.stanford.edu/nyu/04fa/lab/specsbbs101.pdf) [PDF]
+- [Plug and Play BIOS Specification](http://www.osdever.net/documents/PNPBIOSSpecification-v1.0a.pdf) [PDF]
+
+#### Input Devices
+- [PS/2 Mouse/Keyboard Protocol Specification](https://www.avrfreaks.net/sites/default/files/PS2%2520Keyboard.pdf) [PDF]
+    - [PS/2 Keyboard Interface](http://www-ug.eecg.toronto.edu/msl/nios_devices/datasheets/PS2%20Keyboard%20Protocol.htm)
+    - [PS/2 Mouse Interface](https://isdaman.com/alsos/hardware/mouse/ps2interface.htm)
+- [USB Interface Documentation](http://www.usb.org/documents)
+    - [USB EHCI Specification](https://www.intel.com/content/dam/www/public/us/en/documents/technical-specifications/ehci-specification-for-usb.pdf) [PDF]
+    - [USB xHCI Specification](http://www.intel.com/content/dam/www/public/us/en/documents/technical-specifications/extensible-host-controler-interface-usb-xhci.pdf) [PDF]
+    - [USB OHCI Specification](https://www.usb.org/sites/default/files/usbdi10.pdf) [PDF]
+    - [USB HID Specification](https://www.usb.org/sites/default/files/documents/hid1_11.pdf) [PDF]
+
+#### Storage
+- [T13](http://www.t13.org/) - The group who created the ATA/ATAPI standard
+- [PCI IDE Controller Specification](http://www.bswd.com/pciide.pdf) [PDF]
+    - [Programming Interface for Bus Master IDE Controller](http://bswd.com/idems100.pdf) [PDF]
+    - [ATA/ATAPI-8 Command Set](http://hddguru.com/download/documentation/ATA-ATAPI-standard-8/d1699r2b-ATA8-Command-Set.pdf) [PDF]
+    - [ATA/ATAPI-8 Architecture Model](http://hddguru.com/download/documentation/ATA-ATAPI-standard-8/d1700r2-ATA8-Architecture-Model.pdf) [PDF]
+- [Serial ATA Revision 3.2 Specification](http://13thmonkey.org/documentation/Hardware/SerialATA_Revision_3_2_Gold%2528with_Links%2529.pdf) [PDF]
+    - [Serial ATA AHCI Specification Revision 1.3](https://www.intel.com/content/dam/www/public/us/en/documents/technical-specifications/serial-ata-ahci-spec-rev1_3.pdf) [PDF]
+- [CD-ROM Technical Summary](https://web.archive.org/web/20121125205537/http://www.nondot.org/sabre/os/files/Disk/CDROM.txt) [TXT]
+- [Floppy Drive Controller Data Sheet](https://web.archive.org/web/20121125205537/http://www.nondot.org/sabre/os/files/Disk/82077AA_FloppyControllerDatasheet.pdf) [PDF]
+    - [The 8272A Floppy Disk Controller](https://web.archive.org/web/20121125205537/http://www.nondot.org/sabre/os/files/Disk/FLOPPY.TXT) [TXT]
+    - [Floppy Media Type ID's](https://web.archive.org/web/20121125205537/http://www.nondot.org/sabre/os/files/Disk/FloppyMediaIDs.txt) [TXT]
+
+##### File System
+- [Second Extended File System (Ext2)](https://www.nongnu.org/ext2-doc/ext2.html)
+- [ReiserFS Specification](https://web.archive.org/web/20061112034935/http://www.namesys.com/X0reiserfs.html)
+    - [ReiserFS FAQ](https://web.archive.org/web/20060705190506/http://www.namesys.com/faq.html)
+- [Reiser4 Specification](https://web.archive.org/web/20061112034935/http://www.namesys.com/v4/v4.html)
+- [FAT: General Overview of On-Disk Structure](https://web.archive.org/web/20121125180833/http://www.nondot.org/sabre/os/files/FileSystems/FatFormat.pdf) [PDF]
+    - [Long File Name Specification](https://web.archive.org/web/20121125180833/http://www.nondot.org/sabre/os/files/FileSystems/LongFileName.pdf) [PDF]
+    - [Notes on the structure of the VFAT Filesystem](https://web.archive.org/web/20121125180833/http://www.nondot.org/sabre/os/files/FileSystems/VFATInfo.txt) [TXT]
+- [Inside the High Performance File System (HPFS)](https://web.archive.org/web/20121125180833/http://www.nondot.org/sabre/os/files/FileSystems/HPFS/index.html)
+- [NFS Version 2 Protocol Specification (RFC 1094)](https://datatracker.ietf.org/doc/html/rfc1094)
+- [NFS Version 3 Protocol Specification (RFC 1813)](https://datatracker.ietf.org/doc/html/rfc1813)
+- [WebNFS Specification (RFC 2054)](https://datatracker.ietf.org/doc/html/rfc2054)
+- [NFS Version 4 Protocol Specification (RFC 3530)](https://datatracker.ietf.org/doc/html/rfc3530)
+    - [NFS Version 4.1 Protocol Specification (RFC 5661)](https://datatracker.ietf.org/doc/html/rfc5661)
+- [ISO 9660 File System Specification (ECMA-119)](https://web.archive.org/web/20121125180833/http://www.nondot.org/sabre/os/files/FileSystems/iso9660.pdf) [PDF]
+- [ISO 13346 Universal Disk Format Specification (ECMA-167)](http://www.osta.org/specs/pdf/udf201.pdf) [PDF]
+- [Joliet Specification](http://littlesvr.ca/isomaster/resources/JolietSpecification.html)
+
+#### Audio
+- [Sound Blaster Series Hardware Programming Guide](https://pdos.csail.mit.edu/6.828/2008/readings/hardware/SoundBlaster.pdf) [PDF]
+- [Standard MIDI-File Format Spec v1.1](http://www.music.mcgill.ca/~ich/classes/mumt306/midiformat.pdf) [PDF]
+- [MIDI 1.0 Detailed Specification](http://www.shclemen.com/download/The%2520Complete%2520MIDI1.0%2520Detailed%2520Spec.pdf) [PDF]
+- [Audio Codec '97 Component Specifications Revision 2.3](http://web.archive.org/web/20171208053110if_/http://download.intel.com/support/motherboards/desktop/sb/ac97_r23.pdf) [PDF]
+
+#### Executable File Format
+- [Executable and Linking Format Specification](http://refspecs.freestandards.org/elf/elf.pdf) [PDF]
+    - [System V Application Binary Interface Edition 4.1](http://www.sco.com/developers/devspecs/gabi41.pdf) [PDF]
+    - [System V ABI, Intel386 Architecture Processor Supplement](http://www.sco.com/developers/devspecs/abi386-4.pdf) [PDF]
+    - [System V ABI, AMD64 Supplement](http://refspecs.linuxbase.org/elf/x86_64-abi-0.99.pdf) [PDF]
+    - [ELF for the ARM Architecture](http://infocenter.arm.com/help/topic/com.arm.doc.ihi0044b/IHI0044B_aaelf.pdf) [PDF]
+    - [System V ABI, MIPS RISC Processor Supplement](http://www.sco.com/developers/devspecs/mipsabi.pdf) [PDF]
+- [Portable Executable Specification](https://web.archive.org/web/20121125211355/http://www.nondot.org/sabre/os/files/Executables/PE.pdf) [PDF]
+- [OS X ABI Mach-O File Format Reference](https://github.com/aidansteele/osx-abi-macho-file-format-reference/raw/master/Mach-O_File_Format.pdf) [PDF]
+- [DJGPP COFF File Format Specification](http://www.delorie.com/djgpp/doc/coff/)
+- [MZ File Format Specification](http://www.delorie.com/djgpp/doc/exe/)
+- [a.out Specification](https://web.archive.org/web/20120301023848/http://www.nondot.org/sabre/os/files/Executables/a.out.txt) [TXT]
+- [Linear Executable Specification](http://hobbes.nmsu.edu/download/pub/os2/dev/info/lxexe.doc) [Word]
+
+#### Miscellaneous
+- [Ralf Brown's Interrupt List](https://www.cs.cmu.edu/~ralf/files.html)
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+## Code of Conduct
+Please note that this project is released with a [Contributor Code of Conduct](CODE_OF_CONDUCT.md). By participating in this project you agree to abide by its terms.

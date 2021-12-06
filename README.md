@@ -12,13 +12,14 @@ List of resources and projects for operating system development.
    - [Websites](#websites)
    - [Manuals and Specifications](#manuals-and-specifications)
       - [Processors](#processors)
-         - [Instruction Sets](#instruction-sets)
+          - [Instruction Sets](#instruction-sets)
       - [BIOS](#bios)
       - [Input Devices](#input-devices)
       - [Storage](#storage)
-         - [File System](#file-system)
+          - [File System](#file-system)
       - [Audio](#audio)
       - [Networking](#networking)
+          - [NE2000-compatible cards](#ne2000-compatible-cards)
       - [Executable File Format](#executable-file-format)
       - [Miscellaneous](#miscellaneous)
 - [Contributing](#contributing)
@@ -152,9 +153,14 @@ List of resources and projects for operating system development.
 - [Realtek RTL8139D Datasheet](http://www.cs.usfca.edu/~cruse/cs326f04/RTL8139D_DataSheet.pdf) [PDF]
 - [Realtek RTL8139 Programmers Guide](http://www.cs.usfca.edu/~cruse/cs326f04/RTL8139_ProgrammersGuide.pdf) [PDF]
 - [Realtek RTL8169S Datasheet](http://realtek.info/pdf/rtl8169s.pdf) [PDF]
-- [Realtek RTL8019AS Datasheet](http://www.ethernut.de/pdf/8019asds.pdf) [PDF] - One of the NE2000-compatible cards. Can be used as a reference for creating an NE2000 network stack
 - [Intel 8254x Family of GbE Controllers Reference Manual](http://www.intel.com/content/dam/doc/manual/pci-pci-x-family-gbe-controllers-software-dev-manual.pdf) [PDF]
-- [Intel i217 Ethernet Controller Datasheet](https://www.mouser.com/datasheet/2/612/i217-ethernet-controller-datasheet-257741.pdf)
+- [Intel i217 Ethernet Controller Datasheet](https://www.mouser.com/datasheet/2/612/i217-ethernet-controller-datasheet-257741.pdf) [PDF]
+
+##### NE2000-compatible cards
+- [Realtek RTL8019AS Datasheet](http://www.ethernut.de/pdf/8019asds.pdf) [PDF]
+- [WinSystems PCM-NE2000 Datasheet](https://resources.winsystems.com/datasheets/pcm-ne2000-bnc-ds.pdf) [PDF]
+- [WinSystems LPM-NE2000 Datasheet](https://cdn.datasheetspdf.com/pdf-down/L/P/M/LPM-NE2000_ETC.pdf)
+- [WinSystems MCM-NE2000 Datasheet](https://cdn.datasheetspdf.com/pdf-down/M/C/M/MCM-NE2000_ETC.pdf)
 
 #### Executable File Format
 - [Executable and Linking Format Specification](http://refspecs.freestandards.org/elf/elf.pdf) [PDF]

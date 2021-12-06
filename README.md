@@ -68,11 +68,13 @@ List of resources and projects for operating system development.
 - [James A. Molloy's Kernel Tutorials](http://jamesmolloy.co.uk/tutorial_html/) - One of the popular OS development tutorials in the past. It is not recommended to follow this tutorial because it has so many [issues and known flaws](https://wiki.osdev.org/Brokenthorn%27s_Known_Bugs) that have not been corrected.
 
 ### Reference Projects
-- [Linux 0.0.1](https://cdn.kernel.org/pub/linux/kernel/Historic/linux-0.01.tar.gz) - The first version of Linux. This version is very simple compared to future versions after it.
+- [Linux 0.0.1](https://cdn.kernel.org/pub/linux/kernel/Historic/linux-0.01.tar.gz) - The first version of Linux. This version is very simple compared to subsequent versions after it.
 - [Xv6](https://github.com/mit-pdos/xv6-public) ([Book](https://pdos.csail.mit.edu/6.828/2018/xv6/book-rev11.pdf)) - A modernized version of the classic Dennis Richie's and Ken Thompson's UNIX V6, written in ANSI C for the x86 and [RISC-V](https://github.com/mit-pdos/xv6-riscv).
 - [MINIX 1.0](https://github.com/gdevic/minix1) - The first version of MINIX for Intel 8086 long mode. First appeared in a book released in 1987 called "Operating Systems: Design and Implementation" written by Andrew S. Tanenbaum.
 - [MINIX 1.7.0](https://www.minix-vmd.org/source/std/1.7.0) - A revision of the first version of MINIX, now a 32-bit operating system.
 - [MINIX 2.0.0](https://github.com/leapofazzam123/minix-2.0.0) - The second version of MINIX for i386 protected mode. Appeared in the second edition of "Operating Systems Design and Implementation" released in 1997, written by Andrew S. Tanebaum and Albert S. Woodhull.
+
+*Note: MINIX 3.0.0 isn't included because it's too complex to be an educational operating system compared to previous versions of MINIX.*
 
 ### Websites
 - [OSDev Wiki](https://wiki.osdev.org/Expanded_Main_Page) - General OS development wiki where most of the resources OSDevers uses
@@ -85,8 +87,8 @@ List of resources and projects for operating system development.
 - [Intel IA-32 and x86-64 Reference Manual](https://software.intel.com/en-us/articles/intel-sdm/)
     - [Intel Intrinsics Guide](https://software.intel.com/sites/landingpage/IntrinsicsGuide/)
 - [AMD x64-64/AMD64 Reference Manual](http://developer.amd.com/resources/developer-guides-manuals/)
-- [ARM Architecture Reference Manual](https://documentation-service.arm.com/static/5f8dacc8f86e16515cdb865a?token=) [PDF]
-- [Aarch64 Instruction Set Reference](https://documentation-service.arm.com/static/5e7b694616d2907d594029eb?token=) [PDF]
+    - [ARM Architecture Reference Manual](https://documentation-service.arm.com/static/5f8dacc8f86e16515cdb865a?token=) [PDF]
+- [Aarch64 Instruction Set Reference Manual](https://documentation-service.arm.com/static/5e7b694616d2907d594029eb?token=) [PDF]
 
 ##### Instruction Sets
 - [Intel MMX Technology Overview](https://www.ee.ryerson.ca/~courses/ele818/mmx.pdf) [PDF] ([Intrinsics](https://software.intel.com/content/www/us/en/develop/documentation/cpp-compiler-developer-guide-and-reference/top/compiler-reference/intrinsics/intrinsics-for-mmx-technology.html?wapkw=mmx))

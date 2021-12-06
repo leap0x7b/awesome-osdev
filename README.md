@@ -18,10 +18,10 @@ List of resources and projects for operating system development.
       - [Storage](#storage)
          - [File System](#file-system)
       - [Audio](#audio)
+      - [Networking](#networking)
       - [Executable File Format](#executable-file-format)
       - [Miscellaneous](#miscellaneous)
 - [Contributing](#contributing)
-- [Code of Conduct](#code-of-conduct)
 
 ## Projects
 ### Indicators
@@ -87,8 +87,8 @@ List of resources and projects for operating system development.
 - [Intel IA-32 and x86-64 Reference Manual](https://software.intel.com/en-us/articles/intel-sdm/)
     - [Intel Intrinsics Guide](https://software.intel.com/sites/landingpage/IntrinsicsGuide/)
 - [AMD x64-64/AMD64 Reference Manual](http://developer.amd.com/resources/developer-guides-manuals/)
-    - [ARM Architecture Reference Manual](https://documentation-service.arm.com/static/5f8dacc8f86e16515cdb865a?token=) [PDF]
-- [Aarch64 Instruction Set Reference Manual](https://documentation-service.arm.com/static/5e7b694616d2907d594029eb?token=) [PDF]
+- [ARM Architecture Reference Manual](https://documentation-service.arm.com/static/5f8dacc8f86e16515cdb865a?token=) [PDF]
+    - [Aarch64 Instruction Set Reference Manual](https://documentation-service.arm.com/static/5e7b694616d2907d594029eb?token=) [PDF]
 
 ##### Instruction Sets
 - [Intel MMX Technology Overview](https://www.ee.ryerson.ca/~courses/ele818/mmx.pdf) [PDF] ([Intrinsics](https://software.intel.com/content/www/us/en/develop/documentation/cpp-compiler-developer-guide-and-reference/top/compiler-reference/intrinsics/intrinsics-for-mmx-technology.html?wapkw=mmx))
@@ -111,7 +111,7 @@ List of resources and projects for operating system development.
     - [USB HID Specification](https://www.usb.org/sites/default/files/documents/hid1_11.pdf) [PDF]
 
 #### Storage
-- [T13](http://www.t13.org/) - The group who created the ATA/ATAPI standard
+- [T13](http://www.t13.org/) - The working group of the ATA/ATAPI standard
 - [PCI IDE Controller Specification](http://www.bswd.com/pciide.pdf) [PDF]
     - [Programming Interface for Bus Master IDE Controller](http://bswd.com/idems100.pdf) [PDF]
     - [ATA/ATAPI-8 Command Set](http://hddguru.com/download/documentation/ATA-ATAPI-standard-8/d1699r2b-ATA8-Command-Set.pdf) [PDF]
@@ -147,6 +147,15 @@ List of resources and projects for operating system development.
 - [MIDI 1.0 Detailed Specification](http://www.shclemen.com/download/The%2520Complete%2520MIDI1.0%2520Detailed%2520Spec.pdf) [PDF]
 - [Audio Codec '97 Component Specifications Revision 2.3](http://web.archive.org/web/20171208053110if_/http://download.intel.com/support/motherboards/desktop/sb/ac97_r23.pdf) [PDF]
 
+#### Networking
+- [Realtek RTL8139C Datasheet](http://www.magnesium.net/~wpaul/rt/spec-8139cp(150).pdf) [PDF]
+- [Realtek RTL8139D Datasheet](http://www.cs.usfca.edu/~cruse/cs326f04/RTL8139D_DataSheet.pdf) [PDF]
+- [Realtek RTL8139 Programmers Guide](http://www.cs.usfca.edu/~cruse/cs326f04/RTL8139_ProgrammersGuide.pdf) [PDF]
+- [Realtek RTL8169S Datasheet](http://realtek.info/pdf/rtl8169s.pdf) [PDF]
+- [Realtek RTL8019AS Datasheet](http://www.ethernut.de/pdf/8019asds.pdf) [PDF] - One of the NE2000-compatible cards. Can be used as a reference for creating an NE2000 network stack
+- [Intel 8254x Family of GbE Controllers Reference Manual](http://www.intel.com/content/dam/doc/manual/pci-pci-x-family-gbe-controllers-software-dev-manual.pdf) [PDF]
+- [Intel i217 Ethernet Controller Datasheet](https://www.mouser.com/datasheet/2/612/i217-ethernet-controller-datasheet-257741.pdf)
+
 #### Executable File Format
 - [Executable and Linking Format Specification](http://refspecs.freestandards.org/elf/elf.pdf) [PDF]
     - [System V Application Binary Interface Edition 4.1](http://www.sco.com/developers/devspecs/gabi41.pdf) [PDF]
@@ -167,5 +176,4 @@ List of resources and projects for operating system development.
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-## Code of Conduct
 Please note that this project is released with a [Contributor Code of Conduct](CODE_OF_CONDUCT.md). By participating in this project you agree to abide by its terms.

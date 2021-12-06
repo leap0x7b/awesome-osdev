@@ -159,8 +159,8 @@ List of resources and projects for operating system development.
 ##### NE2000-compatible cards
 - [Realtek RTL8019AS Datasheet](http://www.ethernut.de/pdf/8019asds.pdf) [PDF]
 - [WinSystems PCM-NE2000 Datasheet](https://resources.winsystems.com/datasheets/pcm-ne2000-bnc-ds.pdf) [PDF]
-- [WinSystems LPM-NE2000 Datasheet](https://cdn.datasheetspdf.com/pdf-down/L/P/M/LPM-NE2000_ETC.pdf)
-- [WinSystems MCM-NE2000 Datasheet](https://cdn.datasheetspdf.com/pdf-down/M/C/M/MCM-NE2000_ETC.pdf)
+- [WinSystems LPM-NE2000 Datasheet](https://cdn.datasheetspdf.com/pdf-down/L/P/M/LPM-NE2000_ETC.pdf) [PDF]
+- [WinSystems MCM-NE2000 Datasheet](https://cdn.datasheetspdf.com/pdf-down/M/C/M/MCM-NE2000_ETC.pdf) [PDF]
 
 #### Executable File Format
 - [Executable and Linking Format Specification](http://refspecs.freestandards.org/elf/elf.pdf) [PDF]

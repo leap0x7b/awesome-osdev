@@ -214,7 +214,7 @@ List of resources and projects for operating system development.
 - [WinSystems MCM-NE2000 Datasheet](https://cdn.datasheetspdf.com/pdf-down/M/C/M/MCM-NE2000_ETC.pdf) [PDF]
 
 #### Executable File Format
-- [Executable and Linking Format Specification](http://refspecs.freestandards.org/elf/elf.pdf) [PDF]
+- [Executable and Linking Format Specification](https://refspecs.linuxfoundation.org/elf/elf.pdf) [PDF]
     - [System V Application Binary Interface Edition 4.1](http://www.sco.com/developers/devspecs/gabi41.pdf) [PDF]
     - [System V ABI, Intel386 Architecture Processor Supplement](http://www.sco.com/developers/devspecs/abi386-4.pdf) [PDF]
     - [System V ABI, AMD64 Supplement](http://refspecs.linuxbase.org/elf/x86_64-abi-0.99.pdf) [PDF]

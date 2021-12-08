@@ -132,7 +132,7 @@ List of resources and projects for operating system development.
 - [Lowlevel.eu](http://www.lowlevel.eu/wiki/Lowlevel:Portal) - German OS development wiki
 - [Wiki DEVSE](https://devse.wiki/) - French OS development wiki
 - [Bona Fide OS Development](http://www.osdever.net/) - Tutorials and papers for OS developments. This is also where Bran's Kernel Tutorial lives.
-- [OSDev Discord Server]() - Not really a website but a great Discord server for OS development hangout
+- [OSDev Discord Server](https://discord.gg/RnCtsqD) - Not really a website but a great Discord server for OS development hangout
 
 ### Manuals and Specifications
 #### Processors

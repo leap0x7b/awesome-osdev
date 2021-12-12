@@ -128,9 +128,10 @@ List of resources and projects for operating system development.
 *Note: MINIX 3.0.0 isn't included because it's too complex to be an educational operating system compared to previous versions of MINIX.*
 
 ### Websites
-- [OSDev Wiki](https://wiki.osdev.org/Expanded_Main_Page) - General OS development wiki where most of the resources OSDevers uses
-- [Lowlevel.eu](http://www.lowlevel.eu/wiki/Lowlevel:Portal) - German OS development wiki
-- [Wiki DEVSE](https://devse.wiki/) - French OS development wiki
+- [OSDev Wiki](https://wiki.osdev.org/Expanded_Main_Page) - The OS development wiki and also the most commonly used resources for OS developers.
+- [New OSDev Wiki](http://osdev.wiki/wiki/index.html) - An attempt to decentralize the original OSDev Wiki. It is currently WIP and not ready for use.
+- [Lowlevel.eu](http://www.lowlevel.eu/wiki/Lowlevel:Portal) - The German OS development wiki.
+- [Wiki DEVSE](https://devse.wiki/) - The French OS development wiki
 - [Bona Fide OS Development](http://www.osdever.net/) - Tutorials and papers for OS developments. This is also where Bran's Kernel Tutorial lives.
 - [OSDev Discord Server](https://discord.gg/RnCtsqD) - Not really a website but a great Discord server for OS development hangout
 

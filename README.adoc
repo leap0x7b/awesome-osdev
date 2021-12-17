@@ -110,8 +110,8 @@ flaws] that have not been corrected.
 |===
 |image:https://m.media-amazon.com/images/I/51lTsD-LGoL.jpg[Operating
 Systems: Three Easy Pieces,width=240]
-|https://www.amazon.com/Operating-Systems-Three-Easy-Pieces-ebook/dp/B00TPZ17O4[Operating
-Systems: Three Easy Pieces]
+|*https://www.amazon.com/Operating-Systems-Three-Easy-Pieces-ebook/dp/B00TPZ17O4[Operating
+Systems: Three Easy Pieces]*
 | |*Author(s):* Remzi Arpaci-Dusseau and Andrea Arpaci-Dusseau
 | |*Publication date:* February 16th, 2015
 | |*Description:* A book covering the fundamentals of operating
@@ -126,8 +126,8 @@ the instruction of thousands of students.
 |===
 |image:https://m.media-amazon.com/images/I/511H8QWUL4L._AC_SY780_.jpg[Modern
 Operating Systems 4th Edition,width=240]
-|https://www.amazon.com/Modern-Operating-Systems-Andrew-Tanenbaum/dp/013359162X[Modern
-Operating Systems] 4th Edition
+|*https://www.amazon.com/Modern-Operating-Systems-Andrew-Tanenbaum/dp/013359162X[Modern
+Operating Systems]* 4th Edition
 | |*Author(s):* Andrew S. Tannenbaum and Herbert Bos
 | |*Publication date:* March 10th, 2014
 | |*Description:* Modern Operating Systems, Fourth Edition, is intended
@@ -140,8 +140,8 @@ serves as a useful reference for OS professionals.
 |===
 |image:https://m.media-amazon.com/images/I/51tezjsttsL.jpg[Operating
 System Concepts 10th Edition,width=240]
-|https://www.amazon.com/Operating-System-Concepts-Abraham-Silberschatz-ebook/dp/B07CVKH7BD[Operating
-System Concepts] 10th Edition
+|*https://www.amazon.com/Operating-System-Concepts-Abraham-Silberschatz-ebook/dp/B07CVKH7BD[Operating
+System Concepts]* 10th Edition
 | |*Author(s):* Abraham Silberschatz, Greg Gagne, and Peter B. Galvin
 | |*Publication date:* May 4th, 2018
 | |*Description:* The tenth edition of Operating System Concepts has
@@ -163,8 +163,8 @@ further with the material.
 |===
 |image:https://m.media-amazon.com/images/I/51m-4I8qKzL._AC_SY780_.jpg[The
 Design of the UNIX Operating System,width=240]
-|https://www.amazon.com/Design-UNIX-Operating-System/dp/0132017997[The
-Design of the UNIX Operating System]
+|*https://www.amazon.com/Design-UNIX-Operating-System/dp/0132017997[The
+Design of the UNIX Operating System]*
 | |*Author(s):* Maurice Bach
 | |*Publication date:* May 27th, 1986
 | |*Description:* This book describes the internal algorithms and the
@@ -178,8 +178,8 @@ from Release 3.
 |===
 |image:https://m.media-amazon.com/images/I/51UjzO152QL._AC_SY780_.jpg[Operating
 Systems: Principles and Practice,width=240]
-|https://www.amazon.com/Operating-Systems-Principles-Thomas-Anderson/dp/0985673524[Operating
-Systems: Principles and Practice]
+|*https://www.amazon.com/Operating-Systems-Principles-Thomas-Anderson/dp/0985673524[Operating
+Systems: Principles and Practice]*
 | |*Author(s):* Thomas Anderson and Michael Dahlin
 | |*Publication date:* August 21st, 2014
 | |*Description:* Over the past two decades, there has been a huge
@@ -202,8 +202,8 @@ only way to really understand and master this important material.
 |===
 |image:https://m.media-amazon.com/images/I/41d-8kHHYDL._AC_SY780_.jpg[Operating
 Systems: Design and Implementation 1st Edition,width=240]
-|https://www.amazon.com/Operating-Systems-Implementation-Prentice-Hall-Software/dp/0136374069[Operating
-Systems: Design and Implementation] 1st Edition
+|*https://www.amazon.com/Operating-Systems-Implementation-Prentice-Hall-Software/dp/0136374069[Operating
+Systems: Design and Implementation]* 1st Edition
 | |*Author(s):* Andrew S. Tannenbaum
 | |*Publication date:* December 1st, 1986
 | |*Description:* From one of the Netherland's leading authors of
@@ -216,8 +216,8 @@ system — MINIX.
 |===
 |image:https://m.media-amazon.com/images/I/5169V5J687L._AC_SY780_.jpg[Operating
 Systems: Design and Implementation 2nd Edition,width=240]
-|https://www.amazon.com/Operating-Systems-Design-Implementation-Second/dp/0136386776[Operating
-Systems: Design and Implementation] 2nd Edition
+|*https://www.amazon.com/Operating-Systems-Design-Implementation-Second/dp/0136386776[Operating
+Systems: Design and Implementation]* 2nd Edition
 | |*Author(s):* Andrew S. Tannenbaum and Albert S. Woodhull
 | |*Publication date:* January 15th, 1997
 | |*Description:* Most books on operating systems deal with theory while
@@ -244,8 +244,8 @@ and reference.
 |===
 |image:https://m.media-amazon.com/images/I/51TgXvjntUL._AC_SY780_.jpg[Operating
 Systems: Design and Implementation 3rd Edition,width=240]
-|https://www.amazon.com/Operating-Systems-Design-Implementation-3rd/dp/0131429388[Operating
-Systems: Design and Implementation] 3rd Edition
+|*https://www.amazon.com/Operating-Systems-Design-Implementation-3rd/dp/0131429388[Operating
+Systems: Design and Implementation]* 3rd Edition
 | |*Author(s):* Andrew S. Tannenbaum and Albert S. Woodhull
 | |*Publication date:* January 4th, 2006
 | |*Description:* Operating Systems Design and Implementation, 3e, is

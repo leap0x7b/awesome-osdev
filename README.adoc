@@ -109,7 +109,7 @@ flaws] that have not been corrected.
 [cols="^,<",grid=none]
 |===
 |image:https://m.media-amazon.com/images/I/51lTsD-LGoL.jpg[Operating
-Systems: Three Easy Pieces,width=96]
+Systems: Three Easy Pieces,width=240]
 |https://www.amazon.com/Operating-Systems-Three-Easy-Pieces-ebook/dp/B00TPZ17O4[Operating
 Systems: Three Easy Pieces]
 | |*Author(s):* Remzi Arpaci-Dusseau and Andrea Arpaci-Dusseau
@@ -127,7 +127,7 @@ the instruction of thousands of students.
 [cols="^,<",grid=none]
 |===
 |image:https://m.media-amazon.com/images/I/511H8QWUL4L._AC_SY780_.jpg[Modern
-Operating Systems 4th Edition,width=96]
+Operating Systems 4th Edition,width=240]
 |https://www.amazon.com/Modern-Operating-Systems-Andrew-Tanenbaum/dp/013359162X[Modern
 Operating Systems] 4th Edition
 | |*Author(s):* Andrew S. Tannenbaum and Herbert Bos
@@ -143,7 +143,7 @@ serves as a useful reference for OS professionals.
 [cols="^,<",grid=none]
 |===
 |image:https://m.media-amazon.com/images/I/51tezjsttsL.jpg[Operating
-System Concepts 10th Edition,width=96]
+System Concepts 10th Edition,width=240]
 |https://www.amazon.com/Operating-System-Concepts-Abraham-Silberschatz-ebook/dp/B07CVKH7BD[Operating
 System Concepts] 10th Edition
 | |*Author(s):* Abraham Silberschatz, Greg Gagne, and Peter B. Galvin
@@ -168,7 +168,7 @@ further with the material.
 [cols="^,<",grid=none]
 |===
 |image:https://m.media-amazon.com/images/I/51m-4I8qKzL._AC_SY780_.jpg[The
-Design of the UNIX Operating System,width=96]
+Design of the UNIX Operating System,width=240]
 |https://www.amazon.com/Design-UNIX-Operating-System/dp/0132017997[The
 Design of the UNIX Operating System]
 | |*Author(s):* Maurice Bach
@@ -185,7 +185,7 @@ from Release 3.
 [cols="^,<",grid=none]
 |===
 |image:https://m.media-amazon.com/images/I/51UjzO152QL._AC_SY780_.jpg[Operating
-Systems: Principles and Practice,width=96]
+Systems: Principles and Practice,width=240]
 |https://www.amazon.com/Operating-Systems-Principles-Thomas-Anderson/dp/0985673524[Operating
 Systems: Principles and Practice]
 | |*Author(s):* Thomas Anderson and Michael Dahlin
@@ -211,7 +211,7 @@ only way to really understand and master this important material.
 [cols="^,<",grid=none]
 |===
 |image:https://m.media-amazon.com/images/I/41d-8kHHYDL._AC_SY780_.jpg[Operating
-Systems: Design and Implementation 1st Edition,width=96]
+Systems: Design and Implementation 1st Edition,width=240]
 |https://www.amazon.com/Operating-Systems-Implementation-Prentice-Hall-Software/dp/0136374069[Operating
 Systems: Design and Implementation] 1st Edition
 | |*Author(s):* Andrew S. Tannenbaum
@@ -227,7 +227,7 @@ system — MINIX.
 [cols="^,<",grid=none]
 |===
 |image:https://m.media-amazon.com/images/I/5169V5J687L._AC_SY780_.jpg[Operating
-Systems: Design and Implementation 2nd Edition,width=96]
+Systems: Design and Implementation 2nd Edition,width=240]
 |https://www.amazon.com/Operating-Systems-Design-Implementation-Second/dp/0136386776[Operating
 Systems: Design and Implementation] 2nd Edition
 | |*Author(s):* Andrew S. Tannenbaum and Albert S. Woodhull
@@ -257,7 +257,7 @@ and reference.
 [cols="^,<",grid=none]
 |===
 |image:https://m.media-amazon.com/images/I/51TgXvjntUL._AC_SY780_.jpg[Operating
-Systems: Design and Implementation 3rd Edition,width=96]
+Systems: Design and Implementation 3rd Edition,width=240]
 |https://www.amazon.com/Operating-Systems-Design-Implementation-3rd/dp/0131429388[Operating
 Systems: Design and Implementation] 3rd Edition
 | |*Author(s):* Andrew S. Tannenbaum and Albert S. Woodhull

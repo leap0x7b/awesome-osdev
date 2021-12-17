@@ -1,5 +1,6 @@
 == Awesome OSDev
-:toc: preamble
+:toc:
+:toc-placement: preamble
 
 List of resources and projects for operating system development.
 

@@ -1,18 +1,17 @@
-== Awesome OSDev
-:toc:
-:toc-placement: preamble
+= Awesome OSDev
+:toc: preamble
 
 List of resources and projects for operating system development.
 
-=== Projects
+== Projects
 
-==== Indicators
+=== Indicators
 
 * 🙂 - Work in progress
 * 😀 - Finished
 * 🙁 - Unmaintained
 
-==== Bootloaders
+=== Bootloaders
 
 * 😀 https://github.com/limine-bootloader/limine[Limine] - x86/x86_64
 BIOS/UEFI Bootloader
@@ -25,7 +24,7 @@ UEFI boot menu / Stivale2 bootloader
 * 🙂 https://github.com/Andy-Python-Programmer/ion[Ion] - Modern x86_64
 UEFI bootloader
 
-==== Operating Systems
+=== Operating Systems
 
 * 😀 https://github.com/SerenityOS/serenity[SerenityOS] - Graphical
 Unix-like operating system for x86 computers.
@@ -67,9 +66,9 @@ new modern, experimental, unix-like operating system following the
 monolithic kernel design. Supporting modern PC features such as long
 mode, 5-level paging, and SMP (multicore), to name a few.
 
-=== Resources
+== Resources
 
-==== Tutorials
+=== Tutorials
 
 * https://wiki.osdev.org/Stivale_Bare_Bones[Stivale Bare Bones] - Bare
 bones tutorial to make a 64-bit higher half kernel using the Limine
@@ -105,10 +104,10 @@ is not recommended to follow this tutorial because it has so many
 https://wiki.osdev.org/Brokenthorn%27s_Known_Bugs[issues and known
 flaws] that have not been corrected.
 
-==== Books
+=== Books
 
 [cols="^,<",grid=none]
-|===
+|==
 |image:https://m.media-amazon.com/images/I/51lTsD-LGoL.jpg[Operating
 Systems: Three Easy Pieces,width=240]
 |https://www.amazon.com/Operating-Systems-Three-Easy-Pieces-ebook/dp/B00TPZ17O4[Operating
@@ -121,10 +120,10 @@ concurrency, and file and storage systems. Written by professors active
 in the field for 20 years, this text has been developed in the
 classrooms of the University of Wisconsin-Madison, and has been used in
 the instruction of thousands of students.
-|===
+|==
 
 [cols="^,<",grid=none]
-|===
+|==
 |image:https://m.media-amazon.com/images/I/511H8QWUL4L._AC_SY780_.jpg[Modern
 Operating Systems 4th Edition,width=240]
 |https://www.amazon.com/Modern-Operating-Systems-Andrew-Tanenbaum/dp/013359162X[Modern
@@ -135,10 +134,10 @@ Operating Systems] 4th Edition
 for introductory courses in Operating Systems in Computer Science,
 Computer Engineering, and Electrical Engineering programs. It also
 serves as a useful reference for OS professionals.
-|===
+|==
 
 [cols="^,<",grid=none]
-|===
+|==
 |image:https://m.media-amazon.com/images/I/51tezjsttsL.jpg[Operating
 System Concepts 10th Edition,width=240]
 |https://www.amazon.com/Operating-System-Concepts-Abraham-Silberschatz-ebook/dp/B07CVKH7BD[Operating
@@ -158,10 +157,10 @@ help students monitor their level of understanding and progress. A Linux
 virtual machine (including C and Java source code and development tools)
 allows students to complete programming exercises that help them engage
 further with the material.
-|===
+|==
 
 [cols="^,<",grid=none]
-|===
+|==
 |image:https://m.media-amazon.com/images/I/51m-4I8qKzL._AC_SY780_.jpg[The
 Design of the UNIX Operating System,width=240]
 |https://www.amazon.com/Design-UNIX-Operating-System/dp/0132017997[The
@@ -173,10 +172,10 @@ structures that form the basis of the UNIX® operating system and their
 relationship to the programmer interface. The system description is
 based on UNIX System V Release 2 supported by AT&T, with some features
 from Release 3.
-|===
+|==
 
 [cols="^,<",grid=none]
-|===
+|==
 |image:https://m.media-amazon.com/images/I/51UjzO152QL._AC_SY780_.jpg[Operating
 Systems: Principles and Practice,width=240]
 |https://www.amazon.com/Operating-Systems-Principles-Thomas-Anderson/dp/0985673524[Operating
@@ -197,10 +196,10 @@ systems, taking important, high-level concepts all the way down to the
 level of working code. Because operating systems concepts are among the
 most difficult in computer science, this top to bottom approach is the
 only way to really understand and master this important material.
-|===
+|==
 
 [cols="^,<",grid=none]
-|===
+|==
 |image:https://m.media-amazon.com/images/I/41d-8kHHYDL._AC_SY780_.jpg[Operating
 Systems: Design and Implementation 1st Edition,width=240]
 |https://www.amazon.com/Operating-Systems-Implementation-Prentice-Hall-Software/dp/0136374069[Operating
@@ -211,10 +210,10 @@ Systems: Design and Implementation] 1st Edition
 computer science books comes complete coverage of operating systems,
 plus all the design and implementation issues with a complete operating
 system — MINIX.
-|===
+|==
 
 [cols="^,<",grid=none]
-|===
+|==
 |image:https://m.media-amazon.com/images/I/5169V5J687L._AC_SY780_.jpg[Operating
 Systems: Design and Implementation 2nd Edition,width=240]
 |https://www.amazon.com/Operating-Systems-Design-Implementation-Second/dp/0136386776[Operating
@@ -239,10 +238,10 @@ based on the international posix standard instead of on v7. There are
 now also versions of MINIX for the Macintosh and SPARC available.
 Professional programmers will find this book to be a valuable resource
 and reference.
-|===
+|==
 
 [cols="^,<",grid=none]
-|===
+|==
 |image:https://m.media-amazon.com/images/I/51TgXvjntUL._AC_SY780_.jpg[Operating
 Systems: Design and Implementation 3rd Edition,width=240]
 |https://www.amazon.com/Operating-Systems-Design-Implementation-3rd/dp/0131429388[Operating
@@ -259,9 +258,9 @@ relevant principles, then demonstrate their applications using a
 Unix-like operating system as a detailed example. It has been especially
 designed for high reliability, for use in embedded systems, and for ease
 of teaching.
-|===
+|==
 
-==== Reference Projects
+=== Reference Projects
 
 * https://cdn.kernel.org/pub/linux/kernel/Historic/linux-0.01.tar.gz[Linux
 0.0.1] - The first version of Linux. This version is very simple
@@ -285,7 +284,7 @@ edition of "Operating Systems: Design and Implementation" released in
 _Note: MINIX 3.0.0 isn't included because it's too complex to be an
 educational operating system compared to previous versions of MINIX._
 
-==== Websites
+=== Websites
 
 * https://wiki.osdev.org/Expanded_Main_Page[OSDev Wiki] - The OS
 development wiki and also the most commonly used resources for OS
@@ -302,9 +301,9 @@ lives.
 * https://discord.gg/RnCtsqD[OSDev Discord Server] - Not really a
 website but a great Discord server for OS development hangout
 
-==== Manuals and Specifications
+=== Manuals and Specifications
 
-===== Processors
+==== Processors
 
 * https://software.intel.com/en-us/articles/intel-sdm/[Intel IA-32 and
 x86-64 Reference Manual]
@@ -317,7 +316,7 @@ Architecture Reference Manual] [PDF]
 ** https://documentation-service.arm.com/static/5e7b694616d2907d594029eb?token=[Aarch64
 Instruction Set Reference Manual] [PDF]
 
-====== Instruction Sets
+===== Instruction Sets
 
 * https://www.ee.ryerson.ca/~courses/ele818/mmx.pdf[Intel MMX Technology
 Overview] [PDF]
@@ -330,14 +329,14 @@ Technology Manual] [PDF]
 NEON Programmer's Guide] [PDF]
 (https://developer.arm.com/architectures/instruction-sets/simd-isas/neon/intrinsics[Intrinsics])
 
-===== BIOS
+==== BIOS
 
 * https://www.scs.stanford.edu/nyu/04fa/lab/specsbbs101.pdf[BIOS Boot
 Specification] [PDF]
 * http://www.osdever.net/documents/PNPBIOSSpecification-v1.0a.pdf[Plug
 and Play BIOS Specification] [PDF]
 
-===== Input Devices
+==== Input Devices
 
 * https://www.avrfreaks.net/sites/default/files/PS2%2520Keyboard.pdf[PS/2
 Mouse/Keyboard Protocol Specification] [PDF]
@@ -355,7 +354,7 @@ Specification] [PDF]
 ** https://www.usb.org/sites/default/files/documents/hid1_11.pdf[USB HID
 Specification] [PDF]
 
-===== Storage
+==== Storage
 
 * http://www.t13.org/[T13] - The working group of the ATA/ATAPI standard
 * http://www.bswd.com/pciide.pdf[PCI IDE Controller Specification] [PDF]
@@ -378,7 +377,7 @@ Drive Controller Data Sheet] [PDF]
 ** https://web.archive.org/web/20121125205537/http://www.nondot.org/sabre/os/files/Disk/FloppyMediaIDs.txt[Floppy
 Media Type ID's] [TXT]
 
-====== File System
+===== File System
 
 * https://www.nongnu.org/ext2-doc/ext2.html[Second Extended File System
 (Ext2)]
@@ -413,7 +412,7 @@ Format Specification (ECMA-167)] [PDF]
 * http://littlesvr.ca/isomaster/resources/JolietSpecification.html[Joliet
 Specification]
 
-===== Audio
+==== Audio
 
 * https://pdos.csail.mit.edu/6.828/2008/readings/hardware/SoundBlaster.pdf[Sound
 Blaster Series Hardware Programming Guide] [PDF]
@@ -424,7 +423,7 @@ MIDI-File Format Spec v1.1] [PDF]
 * http://web.archive.org/web/20171208053110if_/http://download.intel.com/support/motherboards/desktop/sb/ac97_r23.pdf[Audio
 Codec '97 Component Specifications Revision 2.3] [PDF]
 
-===== Networking
+==== Networking
 
 * http://www.magnesium.net/~wpaul/rt/spec-8139cp(150).pdf[Realtek
 RTL8139C Datasheet] [PDF]
@@ -438,7 +437,7 @@ RTL8139 Programmers Guide] [PDF]
 * https://www.mouser.com/datasheet/2/612/i217-ethernet-controller-datasheet-257741.pdf[Intel
 i217 Ethernet Controller Datasheet] [PDF]
 
-====== NE2000-compatible cards
+===== NE2000-compatible cards
 
 * http://www.ethernut.de/pdf/8019asds.pdf[Realtek RTL8019AS Datasheet]
 [PDF]
@@ -449,7 +448,7 @@ LPM-NE2000 Datasheet] [PDF]
 * https://cdn.datasheetspdf.com/pdf-down/M/C/M/MCM-NE2000_ETC.pdf[WinSystems
 MCM-NE2000 Datasheet] [PDF]
 
-===== Executable File Format
+==== Executable File Format
 
 * https://refspecs.linuxfoundation.org/elf/elf.pdf[Executable and
 Linking Format Specification] [PDF]
@@ -475,11 +474,11 @@ Specification] [TXT]
 * http://hobbes.nmsu.edu/download/pub/os2/dev/info/lxexe.doc[Linear
 Executable Specification] [Word]
 
-===== Miscellaneous
+==== Miscellaneous
 
 * https://www.cs.cmu.edu/~ralf/files.html[Ralf Brown's Interrupt List]
 
-=== Contributing
+== Contributing
 
 Pull requests are welcome. For major changes, please open an issue first
 to discuss what you would like to change.

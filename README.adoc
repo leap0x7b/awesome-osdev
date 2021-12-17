@@ -106,7 +106,7 @@ flaws] that have not been corrected.
 
 ==== Books
 
-[cols="^,.^",grid=none]
+[cols="^.^,<.^",grid=none]
 |===
 |image:https://m.media-amazon.com/images/I/51lTsD-LGoL.jpg[Operating
 Systems: Three Easy Pieces,width=240]
@@ -124,7 +124,7 @@ classrooms of the University of Wisconsin-Madison, and has been used in
 the instruction of thousands of students.
 |===
 
-[cols="^,.^",grid=none]
+[cols="^.^,<.^",grid=none]
 |===
 |image:https://m.media-amazon.com/images/I/511H8QWUL4L._AC_SY780_.jpg[Modern
 Operating Systems 4th Edition,width=240]
@@ -140,7 +140,7 @@ Computer Engineering, and Electrical Engineering programs. It also
 serves as a useful reference for OS professionals.
 |===
 
-[cols="^,.^",grid=none]
+[cols="^.^,<.^",grid=none]
 |===
 |image:https://m.media-amazon.com/images/I/51tezjsttsL.jpg[Operating
 System Concepts 10th Edition,width=240]
@@ -165,7 +165,7 @@ allows students to complete programming exercises that help them engage
 further with the material.
 |===
 
-[cols="^,.^",grid=none]
+[cols="^.^,<.^",grid=none]
 |===
 |image:https://m.media-amazon.com/images/I/51m-4I8qKzL._AC_SY780_.jpg[The
 Design of the UNIX Operating System,width=240]
@@ -182,7 +182,7 @@ based on UNIX System V Release 2 supported by AT&T, with some features
 from Release 3.
 |===
 
-[cols="^,.^",grid=none]
+[cols="^.^,<.^",grid=none]
 |===
 |image:https://m.media-amazon.com/images/I/51UjzO152QL._AC_SY780_.jpg[Operating
 Systems: Principles and Practice,width=240]
@@ -208,7 +208,7 @@ most difficult in computer science, this top to bottom approach is the
 only way to really understand and master this important material.
 |===
 
-[cols="^,.^",grid=none]
+[cols="^.^,<.^",grid=none]
 |===
 |image:https://m.media-amazon.com/images/I/41d-8kHHYDL._AC_SY780_.jpg[Operating
 Systems: Design and Implementation 1st Edition,width=240]
@@ -224,7 +224,7 @@ plus all the design and implementation issues with a complete operating
 system — MINIX.
 |===
 
-[cols="^,.^",grid=none]
+[cols="^.^,<.^",grid=none]
 |===
 |image:https://m.media-amazon.com/images/I/5169V5J687L._AC_SY780_.jpg[Operating
 Systems: Design and Implementation 2nd Edition,width=240]
@@ -254,7 +254,7 @@ Professional programmers will find this book to be a valuable resource
 and reference.
 |===
 
-[cols="^,.^",grid=none]
+[cols="^.^,<.^",grid=none]
 |===
 |image:https://m.media-amazon.com/images/I/51TgXvjntUL._AC_SY780_.jpg[Operating
 Systems: Design and Implementation 3rd Edition,width=240]

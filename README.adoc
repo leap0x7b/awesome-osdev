@@ -1,5 +1,6 @@
 = Awesome OSDev https://awesome.re[image:https://awesome.re/badge.svg[Awesome]]
 :toc: preamble
+:toclevels: 8
 
 List of resources and projects for operating system development.
 

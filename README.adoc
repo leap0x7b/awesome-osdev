@@ -306,6 +306,7 @@ website but a great Discord server for OS development hangout
 
 ==== Processors
 
+* https://www.ndr-nkc.de/download/datenbl/i8088.pdf[Intel 8088 Datasheet] [PDF]
 * https://software.intel.com/en-us/articles/intel-sdm/[Intel IA-32 and
 x86-64 Reference Manual]
 ** https://software.intel.com/sites/landingpage/IntrinsicsGuide/[Intel
@@ -330,12 +331,16 @@ Technology Manual] [PDF]
 NEON Programmer's Guide] [PDF]
 (https://developer.arm.com/architectures/instruction-sets/simd-isas/neon/intrinsics[Intrinsics])
 
-==== BIOS
+==== Firmware
 
 * https://www.scs.stanford.edu/nyu/04fa/lab/specsbbs101.pdf[BIOS Boot
 Specification] [PDF]
 * http://www.osdever.net/documents/PNPBIOSSpecification-v1.0a.pdf[Plug
 and Play BIOS Specification] [PDF]
+* https://uefi.org/sites/default/files/resources/UEFI_Spec_2_9_2021_03_18.pdf[Unified Extensible Firmware Interface (UEFI)
+Specification] [PDF]
+* https://uefi.org/sites/default/files/resources/ACPI_Spec_6_4_Jan22.pdf[Advanced Configuration and Power
+Interface (ACPI) Specification] [PDF]
 
 ==== Input Devices
 

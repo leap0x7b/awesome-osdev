@@ -379,6 +379,11 @@ Architecture Model] [PDF]
 ATA Revision 3.2 Specification] [PDF]
 ** https://www.intel.com/content/dam/www/public/us/en/documents/technical-specifications/serial-ata-ahci-spec-rev1_3.pdf[Serial
 ATA AHCI Specification Revision 1.3] [PDF]
+* https://nvlpubs.nist.gov/nistpubs/Legacy/FIPS/fipspub131.pdf[SCSI-1 Specification] [PDF]
+* http://www.bitsavers.org/components/ncr_symbios/scsi/SCSI-2_Standard_1994.pdf[SCSI-2
+Specification] [PDF]
+* https://stuff.mit.edu/afs/sipb/contrib/doc/specs/protocol/scsi-3/spi-r15a.pdf[SCSI-3 Parallel
+Interface Specification] [PDF]
 * https://web.archive.org/web/20121125205537/http://www.nondot.org/sabre/os/files/Disk/CDROM.txt[CD-ROM
 Technical Summary] [TXT]
 * https://web.archive.org/web/20121125205537/http://www.nondot.org/sabre/os/files/Disk/82077AA_FloppyControllerDatasheet.pdf[Floppy
@@ -458,6 +463,31 @@ PCM-NE2000 Datasheet] [PDF]
 LPM-NE2000 Datasheet] [PDF]
 * https://cdn.datasheetspdf.com/pdf-down/M/C/M/MCM-NE2000_ETC.pdf[WinSystems
 MCM-NE2000 Datasheet] [PDF]
+
+==== Video Display
+
+===== Legacy
+
+* http://minuszerodegrees.net/oa/OA%20-%20IBM%20Monochrome%20Display%20and%20Printer%20Adapter.pdf[IBM
+MDA Reference Manual] [PDF]
+* http://minuszerodegrees.net/oa/OA%20-%20IBM%20Color%20Graphics%20Monitor%20Adapter%20(CGA).pdf[IBM
+CGA Reference Manual] [PDF]
+* http://minuszerodegrees.net/oa/OA%20-%20IBM%20Enhanced%20Graphics%20Adapter.pdf[IBM
+EGA Reference Manual] [PDF]
+* http://www.mcamafia.de/pdf/ibm_vgaxga_trm2.pdf[IBM VGA/XGA Technical
+Reference Manual] [PDF]
+* http://www.osdever.net/FreeVGA/home.htm[FreeVGA Project]
+
+===== VESA BIOS Extensions
+
+* https://web.archive.org/web/20131211151957/http://www.gemixtes.de/super-vga-bios-extension-standard-vs891001/[Super
+VGA BIOS Extensions 1.0 Specification]
+* https://web.archive.org/web/20090114055246/http://docs.ruudkoot.nl/vesasp12.txt[VESA BIOS
+Extensions 1.2 Specification] [TXT]
+* http://www.phatcode.net/res/221/files/vbe20.pdf[VESA BIOS
+Extensions 2.0 Specification] [PDF]
+* http://www.petesqbsite.com/sections/tutorials/tuts/vbe3.pdf[VESA
+BIOS Extensions 3.0 Specification] [PDF]
 
 ==== Executable File Format
 

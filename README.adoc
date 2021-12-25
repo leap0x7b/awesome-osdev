@@ -306,9 +306,9 @@ website but a great Discord server for OS development hangout
 
 ==== Processors
 
-* https://www.ndr-nkc.de/download/datenbl/i8088.pdf[Intel 8088 Datasheet] [PDF]
 * https://software.intel.com/en-us/articles/intel-sdm/[Intel IA-32 and
 x86-64 Reference Manual]
+** https://www.ndr-nkc.de/download/datenbl/i8088.pdf[Intel 8088 Datasheet] [PDF]
 ** https://software.intel.com/sites/landingpage/IntrinsicsGuide/[Intel
 Intrinsics Guide]
 * http://developer.amd.com/resources/developer-guides-manuals/[AMD

@@ -317,8 +317,13 @@ x64-64/AMD64 Reference Manual]
 Architecture Reference Manual] [PDF]
 ** https://documentation-service.arm.com/static/5e7b694616d2907d594029eb?token=[Aarch64
 Instruction Set Reference Manual] [PDF]
+* https://riscv.org/technical/specifications/[RISC-V Manuals and Specifications]
+** https://github.com/riscv/riscv-isa-manual/releases/download/draft-20211216-5651528/riscv-spec.pdf[RISC-V
+Instruction Set Manual (Volume 1: Unprivileged ISA)] [PDF]
+** https://github.com/riscv/riscv-isa-manual/releases/download/draft-20211216-5651528/riscv-privileged.pdf[RISC-V
+Instruction Set Manual (Volume 2: Privileged Architecture)] [PDF]
 
-===== Instruction Sets
+===== Instruction Set Extensions
 
 * https://www.ee.ryerson.ca/~courses/ele818/mmx.pdf[Intel MMX Technology
 Overview] [PDF]
@@ -466,6 +471,8 @@ Intel386 Architecture Processor Supplement] [PDF]
 AMD64 Supplement] [PDF]
 ** http://infocenter.arm.com/help/topic/com.arm.doc.ihi0044b/IHI0044B_aaelf.pdf[ELF
 for the ARM Architecture] [PDF]
+** https://github.com/riscv-non-isa/riscv-elf-psabi-doc/releases/download/v1.0-rc1/riscv-abi.pdf[RISC-V
+ELF psABI Document] [PDF]
 ** http://www.sco.com/developers/devspecs/mipsabi.pdf[System V ABI, MIPS
 RISC Processor Supplement] [PDF]
 * https://web.archive.org/web/20121125211355/http://www.nondot.org/sabre/os/files/Executables/PE.pdf[Portable

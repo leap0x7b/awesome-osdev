@@ -497,5 +497,5 @@ Pull requests are welcome. For major changes, please open an issue first
 to discuss what you would like to change.
 
 Please note that this project is released with a
-link:CODE_OF_CONDUCT.md[Contributor Code of Conduct]. By participating
+link:CODE_OF_CONDUCT.adoc[Contributor Code of Conduct]. By participating
 in this project you agree to abide by its terms.

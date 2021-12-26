@@ -332,6 +332,10 @@ Overview] [PDF]
 MMX Technology Manual] [PDF]
 * https://www.amd.com/system/files/TechDocs/21928.pdf[AMD 3DNow!
 Technology Manual] [PDF]
+* https://software.intel.com/sites/default/files/4f/5b/36945[Intel AVX
+Extensions Programming Reference] [PDF]
+* https://builders.intel.com/docs/networkbuilders/intel-avx-512-instruction-set-for-packet-processing-technology-guide-1617440657.pdf[Intel
+AVX-512 - Instruction Set for Packet Processing] [PDF]
 * https://www.seas.upenn.edu/~ese532/fall2020/handouts/_downloads/b8a011355a55096090c5b62e49f605c7/neon_programmers_guide.pdf[ARM
 NEON Programmer's Guide] [PDF]
 (https://developer.arm.com/architectures/instruction-sets/simd-isas/neon/intrinsics[Intrinsics])

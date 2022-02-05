@@ -18,6 +18,8 @@ List of resources and projects for operating system development.
 BIOS/UEFI Bootloader
 * 🙂 https://github.com/FlorenceOS/Sabaton[Sabaton] - aarch64 stivale2
 bootloader
+* 🙂 https://github.com/Andy-Python-Programmer/ion[Ion] - Modern x86_64
+UEFI bootloader
 * 🙁 https://github.com/TomatOrg/TomatBoot[TomatBoot] - A UEFI 64bit
 Bootloader
 * 🙂 https://github.com/davmac314/tosaithe[Tosaithe] - Very minimalistic
@@ -41,9 +43,9 @@ dynamic linker, syntax-highlighting text editor, network stack, etc.
 * 🙁 https://github.com/skiftOS/skift[SkiftOS] - A hobby operating
 system built from scratch in modern C++. Featuring a reactive UI library
 and a strong emphasis on user experience.
-* 😀 https://github.com/vlang/vinix[Vinix] - Vinix is an effort to write
-a modern, fast, and useful operating system in the V programming
-language
+* 😀 https://github.com/Andy-Python-Programmer/aero[Aero] - Aero is a
+new modern, experimental, unix-like operating system following the
+monolithic kernel design.
 * 😀 https://github.com/FlorenceOS/Florence[FlorenceOS] - The
 Renaissance of Operating Systems
 * 🙂 https://git.sr.ht/~pitust/xtrix[xtrix] - xtrix is a unix-like
@@ -62,10 +64,9 @@ x86 kernel made to be as small and simple to understand as possible,
 while being a fully complete kernel.
 * 😀 https://github.com/icexin/eggos[EggOS] - A Go unikernel running on
 x86 bare metal
-* 😀 https://github.com/Andy-Python-Programmer/aero[Aero] - Aero is a
-new modern, experimental, unix-like operating system following the
-monolithic kernel design. Supporting modern PC features such as long
-mode, 5-level paging, and SMP (multicore), to name a few.
+* 😀 https://github.com/vlang/vinix[Vinix] - Vinix is an effort to write
+a modern, fast, and useful operating system in the V programming
+language
 
 == Resources
 

@@ -273,7 +273,7 @@ modernized version of the classic Dennis Richie's and Ken Thompson's
 UNIX V6, written in ANSI C for the x86 and
 https://github.com/mit-pdos/xv6-riscv[RISC-V].
 * https://github.com/gdevic/minix1[MINIX 1.0] - The first version of
-MINIX for Intel 8088 long mode. First appeared in a book released in
+MINIX for Intel 8088 real mode. First appeared in a book released in
 1986 called "Operating Systems: Design and Implementation" written by
 Andrew S. Tanenbaum.
 * https://www.minix-vmd.org/source/std/1.7.0[MINIX 1.7.0] - A revision

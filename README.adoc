@@ -40,12 +40,15 @@ microkernel-based OS with fully asynchronous I/O
 completely-from-scratch hobby operating system: bootloader, kernel,
 drivers, C library, and userspace including a composited graphical UI,
 dynamic linker, syntax-highlighting text editor, network stack, etc.
-* 🙁 https://github.com/skiftOS/skift[SkiftOS] - A hobby operating
+* 🙂 https://github.com/skiftOS/skift[skiftOS] - A hobby operating
 system built from scratch in modern C++. Featuring a reactive UI library
-and a strong emphasis on user experience.
+and a strong emphasis on user experience. (skiftOS is currently being
+rewritten so a lot of things might not work)
 * 😀 https://github.com/Andy-Python-Programmer/aero[Aero] - Aero is a
 new modern, experimental, unix-like operating system following the
 monolithic kernel design.
+* 😀 https://github.com/lyre-os/lyre[Lyre] - Lyre is an effort to write
+a modern, fast, and useful operating system.
 * 😀 https://github.com/FlorenceOS/Florence[FlorenceOS] - The
 Renaissance of Operating Systems
 * 🙂 https://git.sr.ht/~pitust/xtrix[xtrix] - xtrix is a unix-like
@@ -68,20 +71,44 @@ x86 bare metal
 a modern, fast, and useful operating system in the V programming
 language
 
+=== Library
+
+* 😀 https://github.com/managarm/lai[LAI] - LAI is an interpreter for
+AML, the ACPI Machine Language.
+* 😀 https://github.com/managarm/frigg[frigg] - Lightweight C++ utilities
+and algorithms for system programming
+* 😀 https://github.com/Matt8898/lil[lil] - A lightweight Intel GPU
+library
+
+==== C standard library
+
+* 😀 https://musl.libc.org[musl] - A lightweight C standard library
+designed for Linux, but should work on other systems with other operating
+systems with some modifications.
+* 😀 https://github.com/managarm/mlibc[milbc] - Portable C standard
+library
+* 🙂 https://github.com/cute-engineewing/chadlibc[chadlibc] - 😎 C89
+standard library
+
 == Resources
 
 === Tutorials
 
-* https://wiki.osdev.org/Stivale_Bare_Bones[Stivale Bare Bones] - Bare
+* https://wiki.osdev.org/Limine_Bare_Bones[Limine Bare Bones] - Bare
 bones tutorial to make a 64-bit higher half kernel using the Limine
-bootloader and Stivale boot protocol.
-* https://wiki.osdev.org/Bare_Bones[Multiboot Bare Bones] - Write a
-basic 32-bit kernel in C for x86.
+boot protocol.
+* https://wiki.osdev.org/Stivale_Bare_Bones[Stivale Bare Bones] - Bare
+bones tutorial to make a 64-bit higher half kernel using the Stivale
+boot protocol.
 * https://wiki.osdev.org/Higher_Half_x86_Bare_Bones[Higher Half
 Multiboot Bare Bones] - A tutorial that shows how to write a higher half
 kernel.
+* https://wiki.osdev.org/Bare_Bones[Multiboot Bare Bones] - Write a
+basic 32-bit kernel in C for x86.
 * https://wiki.osdev.org/Meaty_Skeleton[Meaty Skeleton] - A template
-operating system with a basic libc.
+operating system with a basic kernel-side libc.
+* https://os.phil-opp.com/[Writing an OS in Rust] - A blog series to
+write a small operating system in Rust.
 * http://www.osdever.net/tutorials/view/brans-kernel-development-tutorial[Bran's
 Kernel Tutorial] - A very dated, but still often referenced, tutorial
 from the now-moribund "Bona Fide OS Development" site.
@@ -98,8 +125,6 @@ of Birmingham, UK, written by Dr. Nicholas Blundell, the original course
 instructor.
 * https://github.com/isometimes/rpi4-osdev[isometimes/rpi4-osdev] - A
 tutorial to write a basic operating system for Raspberry Pi 4.
-* https://os.phil-opp.com/[Writing an OS in Rust] - A blog series to
-write a small operating system in Rust.
 * http://jamesmolloy.co.uk/tutorial_html/[James A. Molloy's Kernel
 Tutorials] - One of the popular OS development tutorials in the past. It
 is not recommended to follow this tutorial because it has so many
@@ -270,33 +295,48 @@ compared to subsequent versions after it.
 * https://github.com/mit-pdos/xv6-public[Xv6]
 (https://pdos.csail.mit.edu/6.828/2018/xv6/book-rev11.pdf[Book]) - A
 modernized version of the classic Dennis Richie's and Ken Thompson's
-UNIX V6, written in ANSI C for the x86 and
+UNIX V6, written in ANSI C for x86 and
 https://github.com/mit-pdos/xv6-riscv[RISC-V].
 * https://github.com/gdevic/minix1[MINIX 1.0] - The first version of
 MINIX for Intel 8088 real mode. First appeared in a book released in
 1986 called "Operating Systems: Design and Implementation" written by
 Andrew S. Tanenbaum.
-* https://www.minix-vmd.org/source/std/1.7.0[MINIX 1.7.0] - A revision
-of the first version of MINIX, now a 32-bit operating system.
+** https://www.minix-vmd.org/source/std/1.5.0[MINIX 1.5.0] - A revision
+of the first version of MINIX that adds support for the 16-bit 286
+protected mode and some bug fixes.
+** https://www.minix-vmd.org/source/std/1.7.0[MINIX 1.7.0] - A revision
+of the first version of MINIX that adds support for the 32-bit 386
+protected mode and some bug fixes.
 * https://github.com/leapofazzam123/minix-2.0.0[MINIX 2.0.0] - The
-second version of MINIX for i386 protected mode. Appeared in the second
-edition of "Operating Systems: Design and Implementation" released in
-1997, written by Andrew S. Tanebaum and Albert S. Woodhull.
+second version of MINIX for the 16-bit 286 and 32-bit 386 protected
+mode. Appeared in the second edition of "Operating Systems: Design and
+Implementation" released in 1997, written by Andrew S. Tanebaum and
+Albert S. Woodhull.
 
-_Note: MINIX 3.0.0 isn't included because it's too complex to be an
-educational operating system compared to previous versions of MINIX._
+NOTE: MINIX 3.0.0 doesn't count as an educational operating system
+because it's too complex compared to previous versions of MINIX. You
+can use it as a reference for your operating system project, but it's
+much more recommended to look on source codes of older MINIX releases
+instead.
 
 === Websites
 
 * https://wiki.osdev.org/Expanded_Main_Page[OSDev Wiki] - The OS
 development wiki and also the most commonly used resources for OS
 developers.
-* http://osdev.wiki/wiki/index.html[New OSDev Wiki] - An attempt to
-decentralize the original OSDev Wiki. It is currently WIP and not ready
-for use.
+* http://opsys.wiki/view/Main_Page[OpSys Wiki] - An attempt to
+modernize the original OSDev Wiki. It is currently extremely WIP but
+you could still contribute to the wiki.
+* http://osdev.wiki/wiki/index.html[New OSDev Wiki] - Another attempt
+to modernize the original OSDev Wiki. Unlike the previous attempt, it
+uses it's own wiki engine which uses GitHub instead of MediaWiki.
+It is currently WIP and not ready for use.
 * http://www.lowlevel.eu/wiki/Lowlevel:Portal[Lowlevel.eu] - The German
-OS development wiki.
-* https://devse.wiki/[Wiki DEVSE] - The French OS development wiki
+OS development wiki. Also contains most of the resources from the OSDev
+wiki, but in German instead of English.
+* https://devse.wiki/[Wiki DEVSE] - The French OS development wiki. Not
+as complete as Lowlevel.eu or the OSDev Wiki, but still a good resource
+for French OS developers.
 * http://www.osdever.net/[Bona Fide OS Development] - Tutorials and
 papers for OS developments. This is also where Bran's Kernel Tutorial
 lives.
@@ -345,6 +385,8 @@ NEON Programmer's Guide] [PDF]
 
 * https://www.scs.stanford.edu/nyu/04fa/lab/specsbbs101.pdf[BIOS Boot
 Specification] [PDF]
+* https://web.archive.org/web/20121125205058/http://www.nondot.org/sabre/os/files/Booting/BootableCDFormat.doc["El
+Torito" Bootable CD-ROM Format] [Word]
 * http://www.osdever.net/documents/PNPBIOSSpecification-v1.0a.pdf[Plug
 and Play BIOS Specification] [PDF]
 * https://uefi.org/sites/default/files/resources/UEFI_Spec_2_9_2021_03_18.pdf[Unified Extensible Firmware Interface (UEFI)
@@ -402,12 +444,11 @@ Media Type ID's] [TXT]
 
 * https://www.nongnu.org/ext2-doc/ext2.html[Second Extended File System
 (Ext2)]
-* https://web.archive.org/web/20061112034935/http://www.namesys.com/X0reiserfs.html[ReiserFS
-Specification]
-** https://web.archive.org/web/20060705190506/http://www.namesys.com/faq.html[ReiserFS
-FAQ]
-* https://web.archive.org/web/20061112034935/http://www.namesys.com/v4/v4.html[Reiser4
-Specification]
+* https://www.kernel.org/doc/html/latest/filesystems/ext4/index.html[Fourth
+Extended File System (Ext4)]
+* https://btrfs.readthedocs.io/en/latest/[Btrfs Documentation]
+* https://openzfs.github.io/openzfs-docs/[OpenZFS Documentation]
+* https://github.com/echfs/echfs[Echidna File System (EchFS)]
 * https://web.archive.org/web/20121125180833/http://www.nondot.org/sabre/os/files/FileSystems/FatFormat.pdf[FAT:
 General Overview of On-Disk Structure] [PDF]
 ** https://web.archive.org/web/20121125180833/http://www.nondot.org/sabre/os/files/FileSystems/LongFileName.pdf[Long
@@ -516,6 +557,8 @@ Executable Specification] [PDF]
 X ABI Mach-O File Format Reference] [PDF]
 * http://www.delorie.com/djgpp/doc/coff/[DJGPP COFF File Format
 Specification]
+* https://web.archive.org/web/20121125211355/http://www.nondot.org/sabre/os/files/Executables/COM.txt[DOS .com Specification]
+* https://web.archive.org/web/20121125211355/http://www.nondot.org/sabre/os/files/Executables/SYS.txt[DOS .sys Specification]
 * http://www.delorie.com/djgpp/doc/exe/[MZ File Format Specification]
 * https://web.archive.org/web/20120301023848/http://www.nondot.org/sabre/os/files/Executables/a.out.txt[a.out
 Specification] [TXT]
@@ -525,6 +568,8 @@ Executable Specification] [Word]
 ==== Miscellaneous
 
 * https://www.cs.cmu.edu/~ralf/files.html[Ralf Brown's Interrupt List]
+* https://web.archive.org/web/20121125205058/http://www.nondot.org/sabre/os/files/Booting/BootSector.html[Boot
+Sector Overview]
 
 == Contributing
 

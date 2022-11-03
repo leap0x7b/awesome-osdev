@@ -83,8 +83,8 @@ library
 ==== C standard library
 
 * 😀 https://musl.libc.org[musl] - A lightweight C standard library
-designed for Linux, but should work on other systems with other operating
-systems with some modifications.
+designed for Linux, but should work in other operating systems with
+some modifications.
 * 😀 https://github.com/managarm/mlibc[milbc] - Portable C standard
 library
 * 🙂 https://github.com/cute-engineewing/chadlibc[chadlibc] - 😎 C89

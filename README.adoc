@@ -87,8 +87,9 @@ designed for Linux, but should work in other operating systems with
 some modifications.
 * 😀 https://github.com/managarm/mlibc[milbc] - Portable C standard
 library
-* 🙂 https://github.com/cute-engineewing/chadlibc[chadlibc] - 😎 C89
-standard library
+* 🙂 https://github.com/cute-engineewing/chadlibc[chadlibc] - C89
+standard library. Very incomplete and currently isn't recommended
+for use in your operating system.
 
 == Resources
 
@@ -100,6 +101,9 @@ boot protocol.
 * https://wiki.osdev.org/Stivale_Bare_Bones[Stivale Bare Bones] - Bare
 bones tutorial to make a 64-bit higher half kernel using the Stivale
 boot protocol.
+* https://youtube.com/playlist?list=PLFjM7v6KGMpiH2G-kT781ByCNC_0pKpPN[Building
+an OS] [YouTube] - A YouTube series by Nanobyte on how to make your own
+operating system and bootloader from scratch.
 * https://wiki.osdev.org/Higher_Half_x86_Bare_Bones[Higher Half
 Multiboot Bare Bones] - A tutorial that shows how to write a higher half
 kernel.
@@ -125,6 +129,12 @@ of Birmingham, UK, written by Dr. Nicholas Blundell, the original course
 instructor.
 * https://github.com/isometimes/rpi4-osdev[isometimes/rpi4-osdev] - A
 tutorial to write a basic operating system for Raspberry Pi 4.
+* https://youtube.com/playlist?list=PLxN4E629pPnKKqYsNVXpmCza8l0Jb6l8-[Poncho
+OSDev tutorial (Season 1)] [YouTube] - A YouTube series by Poncho on how
+to make your own 64-bit operating system from scratch.
+* https://youtube.com/playlist?list=PLxN4E629pPnJxCQCLy7E0SQY_zuumOVyZ[Poncho
+OSDev tutorial (Season 2)] [YouTube] - A YouTube series by Poncho on how
+to make your own operating system and UEFI bootloader from scratch.
 * http://jamesmolloy.co.uk/tutorial_html/[James A. Molloy's Kernel
 Tutorials] - One of the popular OS development tutorials in the past. It
 is not recommended to follow this tutorial because it has so many
@@ -293,7 +303,7 @@ of teaching.
 0.0.1] - The first version of Linux. This version is very simple
 compared to subsequent versions after it.
 * https://github.com/mit-pdos/xv6-public[Xv6]
-(https://pdos.csail.mit.edu/6.828/2018/xv6/book-rev11.pdf[Book]) - A
+[https://pdos.csail.mit.edu/6.828/2018/xv6/book-rev11.pdf[PDF]] - A
 modernized version of the classic Dennis Richie's and Ken Thompson's
 UNIX V6, written in ANSI C for x86 and
 https://github.com/mit-pdos/xv6-riscv[RISC-V].
@@ -329,8 +339,8 @@ modernize the original OSDev Wiki. It is currently extremely WIP but
 you could still contribute to the wiki.
 * http://osdev.wiki/wiki/index.html[New OSDev Wiki] - Another attempt
 to modernize the original OSDev Wiki. Unlike the previous attempt, it
-uses it's own wiki engine which uses GitHub instead of MediaWiki.
-It is currently WIP and not ready for use.
+uses it's own wiki engine which uses GitHub instead of MediaWiki. It
+is currently WIP and not ready for use.
 * http://www.lowlevel.eu/wiki/Lowlevel:Portal[Lowlevel.eu] - The German
 OS development wiki. Also contains most of the resources from the OSDev
 wiki, but in German instead of English.
@@ -341,7 +351,17 @@ for French OS developers.
 papers for OS developments. This is also where Bran's Kernel Tutorial
 lives.
 * https://discord.gg/RnCtsqD[OSDev Discord Server] - Not really a
-website but a great Discord server for OS development hangout
+website but a great Discord server for OS development hangout.
+
+=== Papers and Articles
+
+* https://web.archive.org/web/20170213221835/http://www.nobius.org/~dbg/practical-file-system-design.pdf[Practical
+File System Design] [PDF]
+* https://www.bottomupcs.com/[Computer Science from the Bottom Up]
+* https://sudonull.com/post/9813-CPU-cores-or-what-SMP-is-and-what-it-is-eaten-with[CPU
+cores or what SMP is and what it is eaten with]
+* https://os.inf.tu-dresden.de/papers_ps/aigner_phd.pdf[Communication in
+Microkernel-Based Operating Systems] [PDF]
 
 === Manuals and Specifications
 
@@ -484,6 +504,8 @@ MIDI-File Format Spec v1.1] [PDF]
 1.0 Detailed Specification] [PDF]
 * http://web.archive.org/web/20171208053110if_/http://download.intel.com/support/motherboards/desktop/sb/ac97_r23.pdf[Audio
 Codec '97 Component Specifications Revision 2.3] [PDF]
+* http://www.intel.com/content/dam/www/public/us/en/documents/product-specifications/high-definition-audio-specification.pdf[Intel
+High Definition Audio Specification Revision 1.0a] [PDF]
 
 ==== Networking
 
@@ -501,6 +523,9 @@ i217 Ethernet Controller Datasheet] [PDF]
 
 ===== NE2000-compatible cards
 
+* https://web.archive.org/web/20010612150713/http://www.national.com/ds/DP/DP8390D.pdf[National
+Semiconductor DP8390D/NS32490D Datasheet] [PDF] - The original reference
+design of the NE2000 standard.
 * http://www.ethernut.de/pdf/8019asds.pdf[Realtek RTL8019AS Datasheet]
 [PDF]
 * https://resources.winsystems.com/datasheets/pcm-ne2000-bnc-ds.pdf[WinSystems

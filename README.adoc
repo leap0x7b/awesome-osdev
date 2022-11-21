@@ -85,7 +85,7 @@ library
 * 😀 https://musl.libc.org[musl] - A lightweight C standard library
 designed for Linux, but should work in other operating systems with
 some modifications.
-* 😀 https://github.com/managarm/mlibc[milbc] - Portable C standard
+* 😀 https://github.com/managarm/mlibc[mlibc] - Portable C standard
 library
 * 🙂 https://github.com/cute-engineewing/chadlibc[chadlibc] - C89
 standard library. Very incomplete and currently isn't recommended

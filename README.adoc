@@ -24,8 +24,6 @@ UEFI bootloader
 Bootloader
 * 🙂 https://github.com/davmac314/tosaithe[Tosaithe] - Very minimalistic
 UEFI boot menu / Stivale2 bootloader
-* 🙂 https://github.com/Andy-Python-Programmer/ion[Ion] - Modern x86_64
-UEFI bootloader
 
 === Operating Systems
 
@@ -44,6 +42,8 @@ dynamic linker, syntax-highlighting text editor, network stack, etc.
 system built from scratch in modern C++. Featuring a reactive UI library
 and a strong emphasis on user experience. (skiftOS is currently being
 rewritten so a lot of things might not work)
+* 😀 https://sortix.org[Sortix] - Sortix is a small self-hosting
+operating-system aiming to be a clean and modern POSIX implementation.
 * 😀 https://github.com/Andy-Python-Programmer/aero[Aero] - Aero is a
 new modern, experimental, unix-like operating system following the
 monolithic kernel design.
@@ -51,10 +51,14 @@ monolithic kernel design.
 a modern, fast, and useful operating system.
 * 😀 https://github.com/FlorenceOS/Florence[FlorenceOS] - The
 Renaissance of Operating Systems
+* 😀 https://github.com/byteduck/duckOS[duckOS] - A hobby UNIX-like
+OS with a graphical window manager for x86 computers.
 * 🙂 https://git.sr.ht/~pitust/xtrix[xtrix] - xtrix is a unix-like
 microkernel designed with a minimal kernel interface.
 * 😀 https://github.com/LemonOSProject/LemonOS[Lemon OS] - Lemon OS is a
 UNIX-like 64-bit operating system written in C++.
+* 🙂 https://github.com/MandelbrotOS/MandelbrotOS[MandelbrotOS] - A
+community driven OS by the youth
 * 🙂 https://github.com/Abb1x/emerald[Emerald] - An operating system
 written in C
 * 🙂 https://github.com/austanss/skylight[Skylight] - A clean,
@@ -122,6 +126,9 @@ known bugs which haven't yet been fixed are listed in the repo.
 * https://github.com/cfenollosa/os-tutorial[cfenollosa/os-tutorial] - A
 tutorial to make a complete operating system from a bootloader to a
 basic shell.
+* https://greenteapress.com/thinkos[Think OS] - A 2015 book written
+as an introduction to operating systems for programmers, written by
+Allen B. Downey.
 * https://www.cs.bham.ac.uk/~exr/lectures/opsys/10_11/lectures/os-dev.pdf[Writing
 a Simple Operating System — From Scratch] [PDF] - A 2010 tutorial based
 on course material from a class on operating systems at the University
@@ -355,9 +362,12 @@ website but a great Discord server for OS development hangout.
 
 === Papers and Articles
 
+* http://0xax.gitbooks.io/linux-insides/content/index.html[Linux Insides]
 * https://web.archive.org/web/20170213221835/http://www.nobius.org/~dbg/practical-file-system-design.pdf[Practical
 File System Design] [PDF]
 * https://www.bottomupcs.com/[Computer Science from the Bottom Up]
+* http://www.oldlinux.org/download/ECLK-5.0.1-WithCover.pdf[A
+Heavily Commented Linux Kernel Source Code] [PDF]
 * https://sudonull.com/post/9813-CPU-cores-or-what-SMP-is-and-what-it-is-eaten-with[CPU
 cores or what SMP is and what it is eaten with]
 * https://os.inf.tu-dresden.de/papers_ps/aigner_phd.pdf[Communication in

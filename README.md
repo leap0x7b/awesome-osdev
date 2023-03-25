@@ -122,7 +122,7 @@ List of resources and projects for operating system development.
 - [MINIX 3.1.0](https://github.com/Stichting-MINIX-Research-Foundation/minix/tree/v3.1.0) - The third version of MINIX for the 32-bit 386 protected mode. Appeared in the third edition of "Operating Systems: Design and Implementation" released in 2006, written by Andrew S. Tanebaum and Albert S. Woodhull.
 - [MINIX From Scratch](https://github.com/o-oconnell/minixfromscratch) - A quick development environment for building the book versions of MINIX 2 and 3.
 
-> **Note**
+> **Note**<br>
 > Recent versions of MINIX 3 doesn’t count as an educational operating system because it’s too complex compared to the book version of MINIX 3 and previous versions of MINIX. You can still use it as a reference for your operating system project, but if you're a beginner, it’s much more recommended to look on source codes of the book version of MINIX 3 instead.
 
 ### Websites

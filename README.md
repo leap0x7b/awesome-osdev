@@ -1,4 +1,4 @@
-# Awesome OSDev [https://awesome.re](![https://awesome.re/badge.svg](Awesome))
+# Awesome OSDev [![https://awesome.re/badge.svg](Awesome)](https://awesome.re)
 List of resources and projects for operating system development.
 
 ## Projects

@@ -8,7 +8,7 @@ List of resources and projects for operating system development.
 - 🙁 - Unmaintained
 
 ### Bootloaders
-- 😀 [Limine](https://github.com/limine-bootloader/limine) - x86/x86_64 BIOS/UEFI Bootloader
+- 😀 [Limine](https://github.com/limine-bootloader/limine) - Modern, advanced, portable, multiprotocol bootloader.
 - 🙂 [Sabaton](https://github.com/FlorenceOS/Sabaton) - aarch64 stivale2 bootloader
 - 🙂 [Ion](https://github.com/Andy-Python-Programmer/ion) - Modern x86_64 UEFI bootloader
 - 🙁 [TomatBoot](https://github.com/TomatOrg/TomatBoot) - A UEFI 64bit Bootloader
@@ -20,29 +20,30 @@ List of resources and projects for operating system development.
 - 🙂 [skiftOS](https://github.com/skiftOS/skift) - A hobby operating system built from scratch in modern C++. Featuring a reactive UI library and a strong emphasis on user experience. (skiftOS is currently being rewritten so a lot of things might not work)
 - 😀 [ToaruOS](https://github.com/klange/toaruos) - A completely-from-scratch hobby operating system: bootloader, kernel, drivers, C library, and userspace including a composited graphical UI, dynamic linker, syntax-highlighting text editor, network stack, etc.
 - 😀 [Managarm](https://github.com/managarm/managarm) - Pragmatic microkernel-based OS with fully asynchronous I/O
+- 😀 [Lyre](https://github.com/lyre-os/lyre) - Lyre is an effort to write a modern, fast, and useful operating system.
+- 🙂 [μ](https://github.com/cute-engineering/mu) - µ is a minimalist microkernel
 - 😀 [opuntiaOS](https://github.com/opuntiaOS-Project/opuntiaOS) - An operating system targeting x86, ARMv7, and Aarch64
 - 😀 [Sortix](https://sortix.org) - Sortix is a small self-hosting operating-system aiming to be a clean and modern POSIX implementation.
 - 😀 [Aero](https://github.com/Andy-Python-Programmer/aero) - Aero is a new modern, experimental, unix-like operating system following the monolithic kernel design.
-- 😀 [Lyre](https://github.com/lyre-os/lyre) - Lyre is an effort to write a modern, fast, and useful operating system.
 - 😀 [FlorenceOS](https://github.com/FlorenceOS/Florence) - The Renaissance of Operating Systems
 - 😀 [duckOS](https://github.com/byteduck/duckOS) - A hobby UNIX-like OS with a graphical window manager for x86 computers.
-- 🙂 [xtrix](https://git.sr.ht/~pitust/xtrix) - xtrix is a unix-like microkernel designed with a minimal kernel interface.
+- 🙂 [nyx](https://github.com/nyx-org/nyx) - A simple operating system with a capability-based microkernel.
 - 😀 [Lemon OS](https://github.com/LemonOSProject/LemonOS) - Lemon OS is a UNIX-like 64-bit operating system written in C++.
 - 🙂 [Skylight](https://github.com/austanss/skylight) - A clean, well-written minimalist operating system designed to be used as an educational material for operating system development.
 - 😀 [SnowflakeOS](https://github.com/29jm/SnowflakeOS) - "It is very special"
-- 🙂 [nop](https://github.com/nop-os/nop) - nop is a simple educational x86 kernel made to be as small and simple to understand as possible, while being a fully complete kernel.
-- 😀 [EggOS](https://github.com/icexin/eggos) - A Go unikernel running on x86 bare metal
-- 😀 [Vinix](https://github.com/vlang/vinix) - Vinix is an effort to write a modern, fast, and useful operating system in the V programming language
 
-### Library
+### Libraries
+- 😀 [ACPICA](https://acpica.org) - A reference ACPI library for operating systems.
 - 😀 [LAI](https://github.com/managarm/lai) - LAI is an interpreter for AML, the ACPI Machine Language.
+- 😀 [libheap](https://github.com/cute-engineering/libheap) - A simple heap allocation library for hobby operating systems.
 - 😀 [frigg](https://github.com/managarm/frigg) - Lightweight C++ utilities and algorithms for system programming
 - 😀 [lil](https://github.com/Matt8898/lil) - A lightweight Intel GPU library
 
-#### C standard library
+#### C Standard Libraries
 - 😀 [musl](https://musl.libc.org) - A lightweight C standard library designed for Linux, but should work in other operating systems with some modifications.
+- 😀 [Sortix libc](https://sortix.org/source/sortix/tree/master/libc) - The C standard library provided by Sortix. Even though it's designed for Sortix, it's easy to port and [supports over 70+ third-party software](https://gitlab.com/sortix/sortix/wikis/Ports).
 - 😀 [mlibc](https://github.com/managarm/mlibc) - Portable C standard library
-- 🙂 [chadlibc](https://github.com/cute-engineewing/chadlibc) - C89 standard library. Very incomplete and currently isn’t recommended for use in your operating system.
+- 🙂 [chadlibc](https://github.com/cute-engineering/chadlibc) - A simple C standard library. Very incomplete and currently isn’t recommended for use in your operating system.
 
 ## Resources
 ### Tutorials
